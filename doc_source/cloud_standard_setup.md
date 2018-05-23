@@ -1,55 +1,61 @@
-# Creating a Simple AD Directory Using the Standard Setup<a name="cloud_standard_setup"></a>
+# Getting Started with Simple AD: Standard Setup<a name="cloud_standard_setup"></a>
 
-To create a Simple AD directory, you must meet the prerequisites identified in [Simple AD Prerequisites](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/cloud_prereq.html) in the *AWS Directory Service Administration Guide*\.
+In this tutorial, you’ll learn how to set up an Amazon WorkDocs site using **Standard Setup** to create a Simple AD directory in the cloud\.
 
-To create an Amazon WorkDocs cloud directory using the standard setup, perform the following steps\.
+**Topics**
++ [Before You Begin](#standard-setup-prereqs)
++ [Step 1: Launch the Amazon WorkDocs Site](#standard-setup-site)
++ [Step 2: Create Directory and Set Administrator](#standard-setup-directory)
++ [Step 3: Complete Admin Control Panel Setup](#standard-setup-admin-panel)
 
-**Note**  
-If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a Microsoft AD Directory to meet compliance requirements\.
+## Before You Begin<a name="standard-setup-prereqs"></a>
++ You must meet the prerequisites identified in [Simple AD Prerequisites](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/cloud_prereq.html) in the *AWS Directory Service Administration Guide*\.
++ If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a AWS Managed Microsoft AD Directory to meet compliance requirements\. For more information, see [Getting Started with AWS Managed Microsoft AD](connect_directory_microsoft.md)\.
++ When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
 
-**To create a cloud directory using the standard setup**
+## Step 1: Launch the Amazon WorkDocs Site<a name="standard-setup-site"></a>
+
+Follow the steps below to launch your Amazon WorkDocs site using **Standard Setup**\.
+
+**To launch the Amazon WorkDocs site**
 
 1. Open the Amazon WorkDocs console at [https://console\.aws\.amazon\.com/zocalo/](https://console.aws.amazon.com/zocalo/)\.
 
    If you have never created or connected a directory in the selected region, you see the Amazon WorkDocs start page\. After you create a directory in a particular region, the start page is no longer available and you see the **Manage Your WorkDocs Sites** page instead\.
 
-1. If you are on the Amazon WorkDocs start page, perform the following steps:
+1. Choose **Get Started Now** from the Amazon WorkDocs start page or choose **Create a New WorkDocs Site** from the **Manage Your WorkDocs Sites** page\.
 
-   1. Choose **Get Started Now**\.
+1. On the **Get Started with WorkDocs** page, next to **Standard Setup**, choose **Launch**\.
 
-   1. On the **Get Started with WorkDocs** page, choose **Launch** under **Standard Setup**\.
+## Step 2: Create Directory and Set Administrator<a name="standard-setup-directory"></a>
 
-   If you are on the **Manage Your WorkDocs Sites** page, perform the following steps:
+Follow the steps below to create a Simple AD directory and set an administrator\.
 
-   1. Choose **Create a New WorkDocs Site**\.
+**To create a Simple AD directory**
 
-   1. On the **Get Started with WorkDocs** page, choose **Launch** under **Standard Setup**\.
+1. On the **Set up a Directory** page, choose **Create Simple AD**\.
 
-1. In the **Set up a Directory** page, choose **Create Simple AD**\.
-
-1. Enter the following values and then choose **Continue**\.
-
-   1. Enter the following values in the **Access Point** section:  
+1. For **Access Point**, enter the following values and then choose **Continue**\.  
 **Region**  
 Verify the region\.  
 **Site URL**  
 Enter the URL for your Amazon WorkDocs site\.
 
-   1. Enter the following values in the **Directory Details** section:  
+1. Enter the following values for **Directory Details**:  
 **Directory DNS**  
 The fully\-qualified name of the directory, such as `corp.example.com`\.  
 **NetBIOS name**  
 The NetBIOS name of the directory, such as `CORP`\.
 
-   1. Enter the following values in the **Set WorkDocs Administrator** section:  
+1. Enter the following values for **Set WorkDocs Administrator**:  
 **Email**  
-The email address of the directory administrator\. The registration email is sent to this email address\.  
+The email address of the directory administrator, also used as the username\. The registration email is sent here\.  
 **First Name**  
 The first name of the directory administrator\.  
 **Last Name**  
 The last name of the directory administrator\.
 
-   1. For **VPC Details**, you can either use an existing VPC, or have Amazon WorkDocs create and configure a VPC for you\. To have Amazon WorkDocs create the VPC for you, select **Set up a new VPC on my behalf**\. To use an existing VPC, select **Select an existing VPC to use with WorkDocs** and enter the following values\.  
+1. For **VPC Details**, select **Set up a new VPC on my behalf** to have Amazon WorkDocs create and configure a VPC for you\. To use an existing VPC instead, select **Select an existing VPC to use with WorkDocs** and enter the following values\.  
 **VPC**  
 The VPC that the directory is created in\.  
 **Subnets**  
@@ -58,3 +64,19 @@ The subnets in the VPC that the directory is created in\. The two subnets must b
 1. Review the directory information and make any necessary changes\. When the information is correct, choose **Create Directory**\.
 
    It takes several minutes for the directory to be connected and the Amazon WorkDocs site to be created\. When the directory has been successfully connected, the **Status** value of the site changes to `Active`\.
+
+## Step 3: Complete Admin Control Panel Setup<a name="standard-setup-admin-panel"></a>
+
+After you receive the administrator registration email, connect to the Amazon WorkDocs site using the client of your choice and complete setup from your admin control panel\.
+
+**To complete admin control panel setup**
+
+1. In the administrator registration email, use the link to sign in to Amazon WorkDocs\.
+
+1. Under **My account**, choose **Open admin control panel**\.
+
+1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Storage Settings](manage-sites.md#storage-limits), [Managing Security Settings](security-settings.md), and [Recovery Bin Retention Settings](manage-sites.md#recovery-bin)\.
+
+1. Under **Manage Users**, invite new users\. You can also edit user settings\. 
+
+For more information, see [Inviting and Managing Amazon WorkDocs Users](users.md)\.

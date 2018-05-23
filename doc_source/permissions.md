@@ -1,8 +1,8 @@
-# Amazon WorkDocs Sharing Permissions<a name="permissions"></a>
+# Permissions<a name="permissions"></a>
 
 Amazon WorkDocs controls access to folders and files through the use of permissions\. Permissions are applied based on the role of the user\.
 
-
+**Topics**
 + [Roles](#roles)
 + [Shared Folder Permissions](#folder_perms)
 + [File Permissions](#doc_perms)
@@ -11,45 +11,28 @@ Amazon WorkDocs controls access to folders and files through the use of permissi
 ## Roles<a name="roles"></a>
 
 Both folder and file permissions are granted based on user roles\. The following are the roles defined by Amazon WorkDocs that apply to folders:
-
 + Folder owner – The owner of the folder or file\.
-
 + Folder co\-owner – A user or group that the owner designates as the co\-owner of the folder or file\.
-
 + Folder contributor – Someone who the folder has been shared with, without limited access to the folder\.
-
 + Folder viewer – Someone who a folder has been shared with, but has been given limited access \(view only\) to the folder\.
 
 The following roles apply to files:
-
 + Owner – The owner of the file\.
-
 + Co\-Owner – A user or group that the owner designates as the co\-owner of the file\.
-
 + Contributor – Someone who has been asked for feedback on file\.
-
 + Viewer – Someone who a file has been shared with, but has been given limited access \(view only\) to the file\.
-
 + Anonymous viewer – A non\-registered user outside of the organization who can view a file that has been shared via an external viewing link\. Unless otherwise indicated, an anonymous viewer has the same permissions as a viewer\.
 
 ## Shared Folder Permissions<a name="folder_perms"></a>
 
 The following are the permissions defined by Amazon WorkDocs for shared folders:
-
 + View – View the contents of a shared folder\.
-
 + View sub\-folder – View a sub\-folder\.
-
 + View shares – View the other users a folder is shared with\.
-
 + Add sub\-folder – Add a sub\-folder\.
-
 + Share – Share the top\-level folder with other users\.
-
 + Revoke share – Revoke the sharing of the top\-level folder\.
-
 + Delete sub\-folder – Delete a sub\-folder\.
-
 + Delete top\-level folder – Delete the top\-level shared folder\.
 
 
@@ -69,29 +52,17 @@ The following are the permissions defined by Amazon WorkDocs for shared folders:
 ## File Permissions<a name="doc_perms"></a>
 
 The following are the permissions defined by Amazon WorkDocs for files that are not in a shared folder:
-
 + View – View a file\.
-
 + Delete – Delete a file\.
-
 + Annotate – Can add feedback to a file\.
-
 + View Shares – View the other users that a file is shared with\.
-
 + View Annotations – View feedback from other users\.
-
 + View Activity – View the activity history of a file\.
-
 + View Versions – View previous versions of a file\.
-
 + Download – Download a file\. This is the default permission\. The ability to download shared files can be allowed or denied in the file properties\. 
-
 + Prevent Download – Prevent a file from being downloaded\.
-
 + Upload – Upload new versions of a file\.
-
 + Share – Share a file with other users\.
-
 + Revoke Sharing – Revoke the sharing of a file\.
 
 
@@ -115,31 +86,18 @@ The following are the permissions defined by Amazon WorkDocs for files that are 
 ## Shared File Permissions<a name="shared_document_perms"></a>
 
 The following are the permissions defined by Amazon WorkDocs for files in a shared folder:
-
 + View – View a file in a shared folder\.
-
 + View Shares – View the other users that a file is shared with\.
-
 + Download – Download a file\.
-
 + Annotate – Can add feedback to a file\.
-
 + View Annotations – View feedback from other users\.
-
 + View Activity – View the activity history of a file\.
-
 + View Versions – View previous versions of a file\.
-
 + Upload – Upload new versions of a file\.
-
 + Delete – Delete a file in a shared folder\.
-
 + Prevent Download – Prevent a file from being downloaded\. This is the default permission for files in the folder\. 
-
 + Share – Share a file with other users\.
-
 + Revoke Sharing – Revoke the sharing of a file\.
-
 + Private Comments – Owner/co\-owner can see all private comments for a document, even if they are not replies to their comment\.
 
 

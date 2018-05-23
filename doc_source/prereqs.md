@@ -1,8 +1,8 @@
-# Setting Up Amazon WorkDocs<a name="setting_up"></a>
+# Prerequisites for Amazon WorkDocs<a name="prereqs"></a>
 
 To set up new Amazon WorkDocs sites, or manage existing sites, you must complete the following tasks\.
 
-
+**Topics**
 + [Sign Up for AWS](#console_signup)
 + [Create IAM Users and Groups \(Recommended\)](#create_iam_user)
 + [Grant IAM Users Permissions for Amazon WorkDocs](#iam_policies)
