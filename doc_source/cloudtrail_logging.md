@@ -1,6 +1,6 @@
 # Logging Amazon WorkDocs API Calls Using AWS CloudTrail<a name="cloudtrail_logging"></a>
 
-Amazon WorkDocs is integrated with CloudTrail, a service that captures API calls made by or on behalf of Amazon WorkDocs in your AWS account and delivers the log files to an Amazon S3 bucket that you specify\. CloudTrail captures API calls from the Amazon WorkDocs console\. Using the information collected by CloudTrail, you can determine what request was made to Amazon WorkDocs, the source IP address from which the request was made, who made the request, when it was made, and so on\. For more information about CloudTrail, including how to configure and enable it, see the [http://docs.aws.amazon.com/awscloudtrail/latest/userguide/](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/)\.
+Amazon WorkDocs is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of Amazon WorkDocs in your AWS account\. It then delivers the log files to an Amazon S3 bucket that you specify\. CloudTrail captures API calls from the Amazon WorkDocs console\. Using the information collected by CloudTrail, you can determine what request was made to Amazon WorkDocs, the source IP address from which the request was made, who made the request, when it was made, and so on\. For more information about CloudTrail, including how to configure and enable it, see the [http://docs.aws.amazon.com/awscloudtrail/latest/userguide/](http://docs.aws.amazon.com/awscloudtrail/latest/userguide/)\.
 
 ## Amazon WorkDocs Information in CloudTrail<a name="service-name-info-in-cloudtrail"></a>
 
@@ -18,7 +18,7 @@ You can also aggregate Amazon WorkDocs log files from multiple AWS regions and m
 
 CloudTrail log files can contain one or more log entries where each entry is made up of multiple JSON\-formatted events\. A log entry represents a single request from any source and includes information about the requested action, any parameters, the date and time of the action, and so on\. The log entries are not guaranteed to be in any particular order\. That is, they are not an ordered stack trace of the public API calls\.
 
-There are two different types of CloudTrail entries that Amazon WorkDocs generates, those from the control plane and those from the data plane\. The important difference between the two is that the user identity for control plane entries is an IAM user, while the user identity for data plane entries is the Amazon WorkDocs directory user\.
+There are two different types of CloudTrail entries that Amazon WorkDocs generates, those from the control plane and those from the data plane\. The important difference between the two is that the user identity for control plane entries is an IAM user\. The user identity for data plane entries is the Amazon WorkDocs directory user\.
 
 Sensitive information, such as passwords, authentication tokens, file comments, and file contents are redacted in the log entries\.
 

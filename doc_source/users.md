@@ -14,3 +14,4 @@ Some admin control panel options differ between cloud directories and connected 
 + [Disabling Users](inactive-user.md)
 + [Transferring Document Ownership](transfer-docs.md)
 + [Deleting Users \(Cloud Directory Only\)](delete_user_cloud.md)
++ [Downloading User List](download-user.md)

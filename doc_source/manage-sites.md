@@ -4,6 +4,7 @@ Administrators can manage site\-wide operations, such as choosing a preferred la
 
 **Topics**
 + [Language Settings](#language-settings)
++ [Online Editing Settings](#online-editing)
 + [Storage Settings](#storage-limits)
 + [Security Settings](#manage-security-settings)
 + [Recovery Bin Retention Settings](#recovery-bin)
@@ -19,6 +20,10 @@ Specify the language to use for site content and email notifications\.
 1. Under **My Account**, choose **Open admin control panel**\.
 
 1. For **Preferred Language Settings**, choose your preferred language\.
+
+## Online Editing Settings<a name="online-editing"></a>
+
+Enable or disable online editing settings from the **Admin control panel**\. For more information, see [Enabling Open with Office Online](enable-office-online.md)\.
 
 ## Storage Settings<a name="storage-limits"></a>
 
@@ -38,7 +43,7 @@ Changing the storage setting affects only users that are added after the setting
 
 ## Security Settings<a name="manage-security-settings"></a>
 
-You can manage security settings for users, including setting up external sharing and publicly shareable link options, and configuring default settings for user invites, new users, and enabled users\. For more information, see [Managing Security Settings](security-settings.md)\.
+You can manage security settings for users\. This includes setting up external sharing and publicly shareable link options, and configuring default settings for user invites, new users, and enabled users\. For more information, see [Managing Security Settings](security-settings.md)\.
 
 ## Recovery Bin Retention Settings<a name="recovery-bin"></a>
 
@@ -50,7 +55,7 @@ Files deleted by a user are stored in the user’s recycle bin for 30 days\. Aft
 
 1. Next to **Recovery bin retention**, choose **Change**\.
 
-1. Enter the number of days to retain files in the recovery bin, and choose **Save**\.
+1. Type the number of days to retain files in the recovery bin, and choose **Save**\.
 **Note**  
 The default retention period is 60 days\. This can be changed to 0–365 days\.
 
@@ -75,16 +80,23 @@ You can manage settings for users, including changing user roles and inviting, e
 Use the Amazon WorkDocs console to delete an Amazon WorkDocs site\.
 
 **Warning**  
-Deleting a site causes the loss of all user information and all files\. Only delete a site if you are absolutely sure that this information is no longer needed\.
+You lose all user information and files when you delete a site\. Delete a site only if you are sure that this information is no longer needed\.
 
 **To delete a site**
 
 1. Open the Amazon WorkDocs console at [https://console\.aws\.amazon\.com/zocalo/](https://console.aws.amazon.com/zocalo/)\.
 
-1. In the **Manage Your WorkDocs Sites** page, select the desired site and choose **Actions** and **Delete WorkDocs Site**\.
+1. If necessary, from the navigation bar, choose the AWS Region that you need\. For more information, see [Regions and Endpoints](http://docs.aws.amazon.com/general/latest/gr/index.html?rande.html) in the *Amazon Web Services General Reference*\.
 
-1. In the **Delete Selected WorkDocs Site** dialog box, choose whether to delete the user directory at the same time\. This deletes the AWS Directory Service Simple AD or AD Connector directory that is used to store the Amazon WorkDocs user information\. To delete the directory, it cannot have any other AWS applications enabled\. For more information, see [Deleting a Simple AD Directory](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/simple_ad_delete.html) or [Deleting an AD Connector Directory](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/ad_connector_delete.html) in the *AWS Directory Service Administration Guide*\.
+1. On the **Manage Your WorkDocs Sites** page, choose the site to delete\. Choose **Actions**, then choose **Delete WorkDocs Site**\.
 
-1. Verify that you are deleting the proper site, enter **DELETE** in the confirmation field, and choose **Delete WorkDocs Site**\. 
+1. In the **Delete Selected WorkDocs Site** dialog box, choose whether to delete the user directory at the same time\.
+
+   1. Choose **I also want to delete the user directory** to delete the AWS Directory Service Simple AD or AD Connector for an on\-premises Microsoft Active Directory\. To delete the directory, it cannot have any other AWS applications enabled\. For more information, see [Deleting a Simple AD Directory](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/simple_ad_delete.html) or [Deleting an AD Connector Directory](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/ad_connector_delete.html) in the *AWS Directory Service Administration Guide*\.
+
+1. Verify that you are deleting the proper site, type **DELETE** in the confirmation field, and choose **Delete WorkDocs Site**\. 
 
    The site is immediately deleted and is no longer available\.
+
+**Note**  
+If you didn't provide your own directory for Amazon WorkDocs, then we created one for you\. When you delete the Amazon WorkDocs site, you are charged for the directory we created for you unless you delete the directory or use it for another AWS application\. For pricing information, see [Other Directory Types Pricing](https://aws.amazon.com/directoryservice/other-directories-pricing/)\.
