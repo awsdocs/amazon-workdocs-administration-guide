@@ -41,7 +41,7 @@ Amazon's trademarks and trade dress may not be used in
 + [Sharing and Collaboration](share_collab.md)
    + [Sharing](sharing.md)
    + [Permissions](permissions.md)
-   + [Enabling Open with Office Online](enable-office-online.md)
+   + [Enabling Collaborative Editing](collab-editing.md)
 + [Managing Sites](manage-sites.md)
 + [Troubleshooting Amazon WorkDocs Issues](troubleshooting.md)
 + [Document History](document_history.md)

@@ -23,7 +23,7 @@ Specify the language to use for site content and email notifications\.
 
 ## Online Editing Settings<a name="online-editing"></a>
 
-Enable or disable online editing settings from the **Admin control panel**\. For more information, see [Enabling Open with Office Online](enable-office-online.md)\.
+Enable or disable online editing settings from the **Admin control panel**\. For more information, see [Enabling Collaborative Editing](collab-editing.md)\.
 
 ## Storage Settings<a name="storage-limits"></a>
 

@@ -7,4 +7,4 @@ Amazon WorkDocs controls access to folders and files through the use of permissi
 **Topics**
 + [Sharing](sharing.md)
 + [Permissions](permissions.md)
-+ [Enabling Open with Office Online](enable-office-online.md)
++ [Enabling Collaborative Editing](collab-editing.md)
