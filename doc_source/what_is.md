@@ -1,12 +1,12 @@
 # What Is Amazon WorkDocs?<a name="what_is"></a>
 
-Amazon WorkDocs is a fully managed, secure, enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity\. Your files are stored in [the cloud](https://aws.amazon.com//what-is-cloud-computing/), safely and securely\. Amazon WorkDocs even includes a synchronization application that always keeps selected folders on your local computer in sync with your cloud folders\. Your files are only visible to you, and your designated contributors and viewers\. Other members of your organization do not have access to any of your files unless you specifically grant them access\.
+Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity\. Files are stored in [the cloud](https://aws.amazon.com//what-is-cloud-computing/), safely and securely\. Your user's files are only visible to them, and their designated contributors and viewers\. Other members of your organization do not have access to other user's files unless they are specifically granted access\. 
 
-You can share your files with other members of your organization for collaboration or review\. The Amazon WorkDocs client applications can be used to view many different types of files, depending on the Internet media type of the file\. Amazon WorkDocs supports all common document and image formats, and support for additional media types is constantly being added\.
+Users can share their files with other members of your organization for collaboration or review\. The Amazon WorkDocs client applications can be used to view many different types of files, depending on the Internet media type of the file\. Amazon WorkDocs supports all common document and image formats, and support for additional media types is constantly being added\. 
 
-For more information, see [Amazon WorkDocs](https://aws.amazon.com/zocalo/)\.
+For more information, see [Amazon WorkDocs](https://aws.amazon.com/zocalo/)\. 
 
-## Accessing<a name="accessing"></a>
+## Accessing Amazon WorkDocs<a name="accessing"></a>
 
 Administrators use the [Amazon WorkDocs console](https://console.aws.amazon.com/zocalo/) to create and deactivate Amazon WorkDocs sites\. With the admin control panel, they can manage users, storage, and security settings\. For more information, see [Managing Sites](manage-sites.md), [Inviting and Managing Amazon WorkDocs Users](users.md), and [Managing Security Settings](security-settings.md)\.
 
@@ -17,8 +17,8 @@ Non\-administrative users use the client applications to access their files\. Th
 + Web clipper browser extensions for several popular web browsers that allow you to save an image of a webpage to your Amazon WorkDocs files\.
 
 For more information about how users can download Amazon WorkDocs clients and edit their files, and which file types are supported, see:
-+ [Amazon WorkDocs Clients](http://docs.aws.amazon.com/workdocs/latest/userguide/client_help.html)
-+ [Adding and Editing Files](http://docs.aws.amazon.com/workdocs/latest/userguide/client_add_files.html)
++ [Getting Started with Amazon WorkDocs](http://docs.aws.amazon.com/workdocs/latest/userguide/getting_started.html)
++ [Editing Files](http://docs.aws.amazon.com/workdocs/latest/userguide/client_folders.html#edit_files)
 + [Supported File Types](http://docs.aws.amazon.com/workdocs/latest/userguide/what_is.html#file-types)
 
 ## Pricing<a name="pricing"></a>
