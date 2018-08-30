@@ -2,9 +2,6 @@
 
 In this tutorial, you’ll learn how to set up an Amazon WorkDocs site using an AWS Directory Service AD Connector directory to connect to your on\-premises directory\. 
 
-**Note**  
-If you use AD Connector with Amazon WorkDocs, you won’t be able to share file view links outside the company or invite external users to become contributors\.
-
 **Topics**
 + [Before You Begin](#ad-connector-prereqs)
 + [Step 1: Launch the Amazon WorkDocs Site](#ad-connector-site)

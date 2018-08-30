@@ -1,6 +1,6 @@
 # Site\-wide Activity Feed<a name="site-activity"></a>
 
-Admins can view and export the activity feed for an entire site\. To use this feature, you must first install the WorkDocs Companion app\. To install the app, see [Amazon WorkDocs Client Downloads](https://amazonworkdocs.com/en/clients)\.
+Admins can view and export the activity feed for an entire site\. To use this feature, you must first install Amazon WorkDocs Companion\. To install Amazon WorkDocs Companion, see [Amazon WorkDocs Client Downloads](https://amazonworkdocs.com/en/clients)\.
 
 **To view and export a site\-wide activity feed**
 

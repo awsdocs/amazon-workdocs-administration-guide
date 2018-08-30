@@ -8,7 +8,7 @@ The following information can help you troubleshoot issues with Amazon WorkDocs\
 + [User needs to reset their password](#password)
 + [User accidentally shared a sensitive document](#sensitive-share)
 + [User left the organization and didn't assign another user as co\-owner](#user-left)
-+ [Need to deploy Amazon WorkDocs Drive or the Amazon WorkDocs Companion app to multiple users](#deploy-multiple)
++ [Need to deploy Amazon WorkDocs Drive or Amazon WorkDocs Companion to multiple users](#deploy-multiple)
 + [Can't access Amazon WorkDocs data without a network connection](#access-no-network)
 + [Online editing isn't working](#online-editing)
 
@@ -32,7 +32,7 @@ To revoke access to the document, choose **Share by invite** next to the documen
 
 Transfer document ownership to another user in the **Admin Control Panel**\. For more information, see [Transferring Document Ownership](transfer-docs.md)\.
 
-## Need to deploy Amazon WorkDocs Drive or the Amazon WorkDocs Companion app to multiple users<a name="deploy-multiple"></a>
+## Need to deploy Amazon WorkDocs Drive or Amazon WorkDocs Companion to multiple users<a name="deploy-multiple"></a>
 
 Deploy to multiple users in an enterprise by using group policy\. For more information, see [Create IAM Users and Groups \(Recommended\)](prereqs.md#create_iam_user)\.
 
@@ -42,4 +42,4 @@ Verify that you have the Amazon WorkDocs Sync Client installed so that you can a
 
 ## Online editing isn't working<a name="online-editing"></a>
 
-Verify that you have the [Amazon WorkDocs Companion app](https://amazonworkdocs.com/en/clients) installed\.
+Verify that you have [Amazon WorkDocs Companion](https://amazonworkdocs.com/en/clients) installed\.
