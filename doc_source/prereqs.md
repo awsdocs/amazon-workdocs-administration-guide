@@ -25,11 +25,11 @@ Your root account credentials identify you to services in AWS and grant you unli
 
 The AWS Management Console requires your username and password so that the service can determine whether you have permission to access its resources\. We recommend that you avoid using root account credentials to access AWS because root account credentials cannot be revoked or limited in any way\. Instead, use AWS Identity and Access Management \(IAM\) to create an IAM user and add the IAM user to an IAM group with administrative permissions\. This grants the IAM user administrative permissions\. You can then access the AWS Management Console using the credentials for the IAM user\.
 
-If you signed up for AWS but have not created an IAM user for yourself, you can create one using the IAM console\. For more information about creating an IAM user, see [Create individual IAM users](http://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPractices.html#create-iam-users) in the *IAM User Guide* guide\.
+If you signed up for AWS but have not created an IAM user for yourself, you can create one using the IAM console\. For more information about creating an IAM user, see [Create individual IAM users](https://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPractices.html#create-iam-users) in the *IAM User Guide* guide\.
 
 ## Grant IAM Users Permissions for Amazon WorkDocs<a name="iam_policies"></a>
 
-By default, IAM users don't have permissions to manage Amazon WorkDocs resources; you must create an IAM policy that explicitly grants IAM users those permissions, and attach the policy to the specific IAM users or groups that require those permissions\. For more information about IAM policies, see [Permissions and Policies](http://docs.aws.amazon.com/IAM/latest/UserGuide/PermissionsAndPolicies.html) in the *IAM User Guide* guide\.
+By default, IAM users don't have permissions to manage Amazon WorkDocs resources; you must create an IAM policy that explicitly grants IAM users those permissions, and attach the policy to the specific IAM users or groups that require those permissions\. For more information about IAM policies, see [Permissions and Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/PermissionsAndPolicies.html) in the *IAM User Guide* guide\.
 
 The following policy statement grants an IAM user full access to Amazon WorkDocs resources\. The policy gives the user access to all Amazon WorkDocs and AWS Directory Service operations, as well as several Amazon EC2 operations that Amazon WorkDocs needs to be able to perform on your behalf\.
 

@@ -9,7 +9,7 @@ In this tutorial, you’ll learn how to set up an Amazon WorkDocs site using an 
 + [Step 3: Complete Admin Control Panel Setup](#ad-connector-admin-panel)
 
 ## Before You Begin<a name="ad-connector-prereqs"></a>
-+ You must meet the prerequisites identified in [AD Connector Prerequisites](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/connect_prereq.html) in the *AWS Directory Service Administration Guide*\.
++ You must meet the prerequisites identified in [AD Connector Prerequisites](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/connect_prereq.html) in the *AWS Directory Service Administration Guide*\.
 + When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
 
 ## Step 1: Launch the Amazon WorkDocs Site<a name="ad-connector-site"></a>

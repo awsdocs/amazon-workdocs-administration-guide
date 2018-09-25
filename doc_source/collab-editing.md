@@ -8,7 +8,7 @@ You can enable collaborative editing options under the **Online Editing Settings
 
 ## Enabling Hancom Online Editing<a name="enable-hancom-edit"></a>
 
-You can enable Hancom Online Editing for your Amazon WorkDocs site, so that users can create and collaboratively edit Microsoft Office files from the Amazon WorkDocs web application\. For more information, see [Hancom Online Editing](http://docs.aws.amazon.com/workdocs/latest/userguide/hancom-online-edit.html)\.
+You can enable Hancom Online Editing for your Amazon WorkDocs site, so that users can create and collaboratively edit Microsoft Office files from the Amazon WorkDocs web application\. For more information, see [Hancom Online Editing](https://docs.aws.amazon.com/workdocs/latest/userguide/hancom-online-edit.html)\.
 
 Hancom Online Editing is available at no additional cost for Amazon WorkDocs users\. No additional licensing or software installation is needed\.
 
@@ -36,7 +36,7 @@ Disable Hancom Online Editing from the **Admin control panel**\.
 
 Enable Open with Office Online for your Amazon WorkDocs site, so that users can collaboratively edit Microsoft Office files from the Amazon WorkDocs web application\. 
 
-Open with Office Online is available at no additional cost for Amazon WorkDocs users who also have a Microsoft Office 365 **Work** or **School** account with a license to edit in Office Online\. For more information, see [Open with Office Online](http://docs.aws.amazon.com/workdocs/latest/userguide/office-online.html)\.
+Open with Office Online is available at no additional cost for Amazon WorkDocs users who also have a Microsoft Office 365 **Work** or **School** account with a license to edit in Office Online\. For more information, see [Open with Office Online](https://docs.aws.amazon.com/workdocs/latest/userguide/office-online.html)\.
 
 **To enable Open with Office Online**
 

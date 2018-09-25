@@ -38,7 +38,7 @@ Deploy to multiple users in an enterprise by using group policy\. For more infor
 
 ## Can't access Amazon WorkDocs data without a network connection<a name="access-no-network"></a>
 
-Verify that you have the Amazon WorkDocs Sync Client installed so that you can access your Amazon WorkDocs files and folders on your desktop\. For more information, see [Amazon WorkDocs Sync Client](http://docs.aws.amazon.com/workdocs/latest/userguide/sync_client_help.html)\.
+Verify that you have the Amazon WorkDocs Sync Client installed so that you can access your Amazon WorkDocs files and folders on your desktop\. For more information, see [Amazon WorkDocs Sync Client](https://docs.aws.amazon.com/workdocs/latest/userguide/sync_client_help.html)\.
 
 ## Online editing isn't working<a name="online-editing"></a>
 

@@ -92,7 +92,7 @@ You lose all user information and files when you delete a site\. Delete a site o
 
 1. In the **Delete Selected WorkDocs Site** dialog box, choose whether to delete the user directory at the same time\.
 
-   1. Choose **I also want to delete the user directory** to delete the AWS Directory Service Simple AD or AD Connector for an on\-premises Microsoft Active Directory\. To delete the directory, it cannot have any other AWS applications enabled\. For more information, see [Deleting a Simple AD Directory](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/simple_ad_delete.html) or [Deleting an AD Connector Directory](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/ad_connector_delete.html) in the *AWS Directory Service Administration Guide*\.
+   1. Choose **I also want to delete the user directory** to delete the AWS Directory Service Simple AD or AD Connector for an on\-premises Microsoft Active Directory\. To delete the directory, it cannot have any other AWS applications enabled\. For more information, see [Deleting a Simple AD Directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/simple_ad_delete.html) or [Deleting an AD Connector Directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/ad_connector_delete.html) in the *AWS Directory Service Administration Guide*\.
 
 1. Verify that you are deleting the proper site, type **DELETE** in the confirmation field, and choose **Delete WorkDocs Site**\. 
 

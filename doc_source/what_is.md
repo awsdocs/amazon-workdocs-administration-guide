@@ -17,9 +17,9 @@ Non\-administrative users use the client applications to access their files\. Th
 + Web clipper browser extensions for several popular web browsers that allow you to save an image of a webpage to your Amazon WorkDocs files\.
 
 For more information about how users can download Amazon WorkDocs clients and edit their files, and which file types are supported, see:
-+ [Getting Started with Amazon WorkDocs](http://docs.aws.amazon.com/workdocs/latest/userguide/getting_started.html)
-+ [Editing Files](http://docs.aws.amazon.com/workdocs/latest/userguide/client_folders.html#edit_files)
-+ [Supported File Types](http://docs.aws.amazon.com/workdocs/latest/userguide/what_is.html#file-types)
++ [Getting Started with Amazon WorkDocs](https://docs.aws.amazon.com/workdocs/latest/userguide/getting_started.html)
++ [Editing Files](https://docs.aws.amazon.com/workdocs/latest/userguide/client_folders.html#edit_files)
++ [Supported File Types](https://docs.aws.amazon.com/workdocs/latest/userguide/what_is.html#file-types)
 
 ## Pricing<a name="pricing"></a>
 
@@ -34,4 +34,4 @@ To get started with Amazon WorkDocs, try one of the following tutorials:
 + [Getting Started with AD Connector ](connect_directory_connector.md)
 + [Getting Started with AWS Managed Microsoft AD](connect_directory_microsoft.md)
 
-If you have an Amazon WorkSpaces administrator account with a directory that is enabled for Amazon WorkDocs, you can sign in to your Amazon WorkDocs site and finish setup from the **Admin control panel**\. For more information, see [Step 3: Complete Admin Control Panel Setup](cloud_standard_setup.md#standard-setup-admin-panel)\. For more information about using Amazon WorkSpaces to get started with Amazon WorkDocs, see [Get Started with Amazon WorkSpaces Quick Setup](http://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html)\.
+If you have an Amazon WorkSpaces administrator account with a directory that is enabled for Amazon WorkDocs, you can sign in to your Amazon WorkDocs site and finish setup from the **Admin control panel**\. For more information, see [Step 3: Complete Admin Control Panel Setup](cloud_standard_setup.md#standard-setup-admin-panel)\. For more information about using Amazon WorkSpaces to get started with Amazon WorkDocs, see [Get Started with Amazon WorkSpaces Quick Setup](https://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html)\.

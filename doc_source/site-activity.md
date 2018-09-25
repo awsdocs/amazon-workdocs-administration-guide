@@ -18,4 +18,4 @@ Admins can view and export the activity feed for an entire site\. To use this fe
 
    Any filters you applied are reflected in the exported file\.
 **Note**  
-Users who are not administrators can view and export the activity feed for their own content only\. For more information, see [Viewing the Activity Feed](http://docs.aws.amazon.com/workdocs/latest/userguide/activity_feed.html) in the *Amazon WorkDocs User Guide*\.
+Users who are not administrators can view and export the activity feed for their own content only\. For more information, see [Viewing the Activity Feed](https://docs.aws.amazon.com/workdocs/latest/userguide/activity_feed.html) in the *Amazon WorkDocs User Guide*\.

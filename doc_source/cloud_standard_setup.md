@@ -9,7 +9,7 @@ In this tutorial, you’ll learn how to set up an Amazon WorkDocs site using **S
 + [Step 3: Complete Admin Control Panel Setup](#standard-setup-admin-panel)
 
 ## Before You Begin<a name="standard-setup-prereqs"></a>
-+ You must meet the prerequisites identified in [Simple AD Prerequisites](http://docs.aws.amazon.com/directoryservice/latest/admin-guide/cloud_prereq.html) in the *AWS Directory Service Administration Guide*\.
++ You must meet the prerequisites identified in [Simple AD Prerequisites](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/cloud_prereq.html) in the *AWS Directory Service Administration Guide*\.
 + If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a AWS Managed Microsoft AD Directory to meet compliance requirements\. For more information, see [Getting Started with AWS Managed Microsoft AD](connect_directory_microsoft.md)\.
 + When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
 
