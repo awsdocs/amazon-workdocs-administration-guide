@@ -6,6 +6,7 @@ Administrators can manage site\-wide operations, such as choosing a preferred la
 + [Language Settings](#language-settings)
 + [Online Editing Settings](#online-editing)
 + [Storage Settings](#storage-limits)
++ [IP Allow List Settings](#ipfiltering)
 + [Security Settings](#manage-security-settings)
 + [Recovery Bin Retention Settings](#recovery-bin)
 + [Manage Users Settings](#manage-users-settings)
@@ -40,6 +41,30 @@ Specify the amount of storage that new users receive\.
 1. Choose **Save Changes**\.
 
 Changing the storage setting affects only users that are added after the setting is changed\. It does not change the amount of storage allocated to existing users\. To change the storage limit for an existing user, see [Editing Users](edit_user.md)\.
+
+## IP Allow List Settings<a name="ipfiltering"></a>
+
+Amazon WorkDocs site administrators can add **IP Allow List** settings to restrict site access to an allowed range of IP addresses\. You can add up to 32 **IP Allow List** settings per site\.
+
+**Note**  
+The **IP Allow List** currently works for IPv4 addresses only\. IP address denylisting is not currently supported\.
+
+**To add an IP range to the **IP Allow List****
+
+1. Under **My Account**, choose **Open admin control panel**\.
+
+1. For **IP Allow List**, choose **Change**\.
+
+1. For **Enter CIDR value**, enter the Classless Inter\-Domain Routing \(CIDR\) block for the IP address ranges to allowlist, and choose **Add**\.
+
+   1. To allow access from a single IP address, specify `/32` as the CIDR prefix\.
+
+1. Choose **Save Changes**\.
+
+1. Users who connect to your site from the IP addresses on the **IP Allow List** are allowed access\. Users who attempt to connect to your site from unauthorized IP addresses receive an unauthorized response\.
+
+**Warning**  
+If you enter a CIDR value that blocks you from using your current IP address to access the site, a warning message appears\. If you choose to continue with the current CIDR value, you will be blocked from accessing the site with your current IP address\. This action can only be reversed by contacting AWS Support\.
 
 ## Security Settings<a name="manage-security-settings"></a>
 
