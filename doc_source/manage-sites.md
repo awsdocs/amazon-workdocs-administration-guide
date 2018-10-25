@@ -92,9 +92,9 @@ You can restore user files from the recovery bin before they are permanently del
 
 1. Under **Manage Users**, choose the user's folder icon\.
 
-1. Under **Recovery bin**, choose any of the user's files to restore\.
+1. Under **Recovery bin**, select the file\(s\) to restore, then choose the **Recover** icon\.
 
-1. On the **Restore file** page, choose the location to restore the file, and choose **Restore**\.
+1. For **Restore file**, choose the location to which to restore the file, then choose **Restore**\.
 
 ## Manage Users Settings<a name="manage-users-settings"></a>
 
