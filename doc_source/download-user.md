@@ -1,6 +1,6 @@
 # Downloading User List<a name="download-user"></a>
 
-To download a list of users from the **Admin control panel**, you must install Amazon WorkDocs Companion\. To install Amazon WorkDocs Companion, see [Amazon WorkDocs Resources](https://aws.amazon.com/workdocs/resources/)\.
+To download a list of users from the **Admin control panel**, you must install Amazon WorkDocs Companion\. To install Amazon WorkDocs Companion, see [Apps & Integrations for Amazon WorkDocs](https://amazonworkdocs.com/apps.html)\.
 
 **Note**  
 The **Download user** option is not available for Amazon WorkDocs sites using an AWS Directory Service AD Connector directory\.

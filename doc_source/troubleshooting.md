@@ -42,4 +42,4 @@ Verify that you have the Amazon WorkDocs Sync Client installed so that you can a
 
 ## Online editing isn't working<a name="online-editing"></a>
 
-Verify that you have Amazon WorkDocs Companion installed\. To install Amazon WorkDocs Companion, see [Amazon WorkDocs Resources](https://aws.amazon.com/workdocs/resources/)\.
+Verify that you have Amazon WorkDocs Companion installed\. To install Amazon WorkDocs Companion, see [Apps & Integrations for Amazon WorkDocs](https://amazonworkdocs.com/apps.html)\.
