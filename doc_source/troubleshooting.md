@@ -7,14 +7,14 @@ The following information can help you troubleshoot issues with Amazon WorkDocs\
 + [Want to set up my Amazon WorkDocs site in an existing Amazon VPC](#existing-vpc)
 + [User needs to reset their password](#password)
 + [User accidentally shared a sensitive document](#sensitive-share)
-+ [User left the organization and didn't assign another user as co\-owner](#user-left)
++ [User left the organization and didn't transfer document ownership](#user-left)
 + [Need to deploy Amazon WorkDocs Drive or Amazon WorkDocs Companion to multiple users](#deploy-multiple)
 + [Can't access Amazon WorkDocs data without a network connection](#access-no-network)
 + [Online editing isn't working](#online-editing)
 
 ## Can't set up my Amazon WorkDocs site in a specific AWS Region<a name="region"></a>
 
-If you're setting up a new Amazon WorkDocs site, you can select the AWS Region during setup\. For more information, see the tutorial for your particular use case under [Getting Started with Amazon WorkDocs](getting_started.md)\.
+If you're setting up a new Amazon WorkDocs site, select the AWS Region during setup\. For more information, see the tutorial for your particular use case under [Getting Started with Amazon WorkDocs](getting_started.md)\.
 
 ## Want to set up my Amazon WorkDocs site in an existing Amazon VPC<a name="existing-vpc"></a>
 
@@ -28,7 +28,7 @@ Users can reset their passwords by choosing **Forgot password?** on their sign\-
 
 To revoke access to the document, choose **Share by invite** next to the document, then remove the users who should no longer have access\. If the document was shared using a link, choose **Share a link** and disable the link\.
 
-## User left the organization and didn't assign another user as co\-owner<a name="user-left"></a>
+## User left the organization and didn't transfer document ownership<a name="user-left"></a>
 
 Transfer document ownership to another user in the **Admin Control Panel**\. For more information, see [Transferring Document Ownership](transfer-docs.md)\.
 

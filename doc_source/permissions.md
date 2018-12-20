@@ -29,6 +29,7 @@ The following are the permissions defined by Amazon WorkDocs for shared folders:
 + View – View the contents of a shared folder\.
 + View sub\-folder – View a sub\-folder\.
 + View shares – View the other users a folder is shared with\.
++ Download folder – Download a folder\.
 + Add sub\-folder – Add a sub\-folder\.
 + Share – Share the top\-level folder with other users\.
 + Revoke share – Revoke the sharing of the top\-level folder\.
@@ -43,6 +44,7 @@ The following are the permissions defined by Amazon WorkDocs for shared folders:
 | View | X | X | X | X | 
 | View Sub\-folders | X | X | X | X | 
 | View Shares | X | X | X | X | 
+| Download | X | X | X | X | 
 | Add Sub\-folder | X | X | X |  | 
 | Share | X | X |  |  | 
 | Revoke Sharing | X | X |  |  | 
