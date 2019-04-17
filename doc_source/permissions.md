@@ -116,7 +116,7 @@ The following are the permissions defined by Amazon WorkDocs for files in a shar
 | View Versions | X | X | X |  |  | 
 | Upload | X | X | X |  |  | 
 | Delete | X | X | X |  |  | 
-| Rename | X | X | X |  |  | 
+| Rename | X | X |  |  |  | 
 | Prevent Download | X | X |  |  |  | 
 | Share | X | X |  |  |  | 
 | Revoke Sharing | X | X |  |  |  | 

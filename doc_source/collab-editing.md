@@ -3,18 +3,18 @@
 You can enable collaborative editing options under the **Online Editing Settings** section in your **Admin control panel**\.
 
 **Topics**
-+ [Enabling Hancom Online Editing](#enable-hancom-edit)
++ [Enabling Hancom ThinkFree](#enable-hancom-edit)
 + [Enabling Open with Office Online](#enable-office-online)
 
-## Enabling Hancom Online Editing<a name="enable-hancom-edit"></a>
+## Enabling Hancom ThinkFree<a name="enable-hancom-edit"></a>
 
-You can enable Hancom Online Editing for your Amazon WorkDocs site, so that users can create and collaboratively edit Microsoft Office files from the Amazon WorkDocs web application\. For more information, see [Hancom Online Editing](https://docs.aws.amazon.com/workdocs/latest/userguide/hancom-online-edit.html)\.
+You can enable Hancom ThinkFree for your Amazon WorkDocs site, so that users can create and collaboratively edit Microsoft Office files from the Amazon WorkDocs web application\. For more information, see [Editing with Hancom ThinkFree](https://docs.aws.amazon.com/workdocs/latest/userguide/hancom-online-edit.html)\.
 
-Hancom Online Editing is available at no additional cost for Amazon WorkDocs users\. No additional licensing or software installation is needed\.
+Hancom ThinkFree is available at no additional cost for Amazon WorkDocs users\. No additional licensing or software installation is needed\.
 
-**To enable Hancom Online Editing**
+**To enable Hancom ThinkFree**
 
-Enable Hancom Online Editing from the **Admin control panel**\.
+Enable Hancom ThinkFree editing from the **Admin control panel**\.
 
 1. Under **My account**, choose **Open admin control panel**\.
 
@@ -22,9 +22,9 @@ Enable Hancom Online Editing from the **Admin control panel**\.
 
 1. Select **Enable Hancom Online Editing Feature**, review the terms of usage, and then choose **Save**\. 
 
-**To disable Hancom Online Editing**
+**To disable Hancom ThinkFree**
 
-Disable Hancom Online Editing from the **Admin control panel**\.
+Disable Hancom ThinkFree editing from the **Admin control panel**\.
 
 1. Under **My account**, choose **Open admin control panel**\.
 

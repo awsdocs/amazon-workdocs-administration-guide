@@ -31,7 +31,6 @@ Amazon's trademarks and trade dress may not be used in
    + [Editing Users](edit_user.md)
    + [Disabling Users](inactive-user.md)
    + [Transferring Document Ownership](transfer-docs.md)
-   + [Deleting Users (Cloud Directory Only)](delete_user_cloud.md)
    + [Downloading User List](download-user.md)
 + [Managing Security Settings](security-settings.md)
    + [Public Share Settings](external_share_settings.md)
