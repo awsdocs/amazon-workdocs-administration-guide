@@ -4,7 +4,9 @@ You can transfer an inactive user's files and folders to an active user\. For mo
 
 **To transfer document ownership**
 
-1. From the **Admin Control Panel**, under **Manage Users**, choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the inactive user's name\. 
+1. From the **Admin Control Panel**, under **Manage Users**, search for the inactive user\.
+
+1. Choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the inactive user's name\. 
 
 1. Select **Transfer Document Ownership** and type the email address of the active user to whom to transfer the files\.
 
