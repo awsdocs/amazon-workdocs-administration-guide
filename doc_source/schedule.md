@@ -2,7 +2,10 @@
 
 After you complete steps 1 and 2, use the Amazon WorkDocs Migration Service to schedule the migration\. When you schedule the migration, your Amazon WorkDocs user account **Storage** setting is automatically changed to **Unlimited**\.
 
-The Amazon WorkDocs Migration Service provides an AWS Identity and Access Management \(IAM\) policy for you to use for the migration\. With this policy, you create a new IAM role that grants the Amazon WorkDocs Migration Service access to the Amazon S3 bucket and Amazon WorkDocs site that you designate\.
+**Note**  
+Migrating files that exceed your Amazon WorkDocs storage limit can result in additional costs\. For more information, see [Amazon WorkDocs Pricing](http://aws.amazon.com/workdocs/pricing/)\.
+
+The Amazon WorkDocs Migration Service provides an AWS Identity and Access Management \(IAM\) policy for you to use for the migration\. With this policy, you create a new IAM role that grants the Amazon WorkDocs Migration Service access to the Amazon S3 bucket and Amazon WorkDocs site that you designate\. You also subscribe to Amazon SNS email notifications to receive updates when your migration request is scheduled, and when it begins and ends\.
 
 **To schedule a migration**
 

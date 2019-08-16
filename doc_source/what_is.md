@@ -4,7 +4,7 @@ Amazon WorkDocs is a fully managed, secure enterprise storage and sharing servic
 
 Users can share their files with other members of your organization for collaboration or review\. The Amazon WorkDocs client applications can be used to view many different types of files, depending on the Internet media type of the file\. Amazon WorkDocs supports all common document and image formats, and support for additional media types is constantly being added\. 
 
-For more information, see [Amazon WorkDocs](https://aws.amazon.com/zocalo/)\. 
+For more information, see [Amazon WorkDocs](https://aws.amazon.com/workdocs/)\. 
 
 ## Accessing Amazon WorkDocs<a name="accessing"></a>
 
@@ -23,7 +23,7 @@ For more information about how users can download Amazon WorkDocs clients and ed
 
 ## Pricing<a name="pricing"></a>
 
-With Amazon WorkDocs, there are no upfront fees or commitments\. You pay only for active user accounts, and the storage you use\. For more information, see [Pricing](http://aws.amazon.com/zocalo/pricing)\.
+With Amazon WorkDocs, there are no upfront fees or commitments\. You pay only for active user accounts, and the storage you use\. For more information, see [Pricing](https://aws.amazon.com/workdocs/pricing)\.
 
 ## How to Get Started<a name="how-to-start"></a>
 

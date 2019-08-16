@@ -9,7 +9,6 @@ The following information can help you troubleshoot issues with Amazon WorkDocs\
 + [User accidentally shared a sensitive document](#sensitive-share)
 + [User left the organization and didn't transfer document ownership](#user-left)
 + [Need to deploy Amazon WorkDocs Drive or Amazon WorkDocs Companion to multiple users](#deploy-multiple)
-+ [Can't access Amazon WorkDocs data without a network connection](#access-no-network)
 + [Online editing isn't working](#online-editing)
 
 ## Can't set up my Amazon WorkDocs site in a specific AWS Region<a name="region"></a>
@@ -35,10 +34,6 @@ Transfer document ownership to another user in the **Admin Control Panel**\. For
 ## Need to deploy Amazon WorkDocs Drive or Amazon WorkDocs Companion to multiple users<a name="deploy-multiple"></a>
 
 Deploy to multiple users in an enterprise by using group policy\. For more information, see [Create IAM Users and Groups \(Recommended\)](prereqs.md#create_iam_user)\.
-
-## Can't access Amazon WorkDocs data without a network connection<a name="access-no-network"></a>
-
-Verify that you have the Amazon WorkDocs Sync Client installed so that you can access your Amazon WorkDocs files and folders on your desktop\. For more information, see [Amazon WorkDocs Sync Client](https://docs.aws.amazon.com/workdocs/latest/userguide/sync_client_help.html)\.
 
 ## Online editing isn't working<a name="online-editing"></a>
 
