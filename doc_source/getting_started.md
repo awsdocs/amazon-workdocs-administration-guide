@@ -1,6 +1,6 @@
 # Getting Started with Amazon WorkDocs<a name="getting_started"></a>
 
-Amazon WorkDocs uses a directory to store and manage organization information for your users and their documents\. You can create a Simple AD directory using Quick Start or Standard Setup, or create an AD Connector directory to connect to your on\-premises directory\. Alternatively, you can enable Amazon WorkDocs to work with an existing AWS directory, or you can have Amazon WorkDocs create a directory for you\. You can also create a trust relationship between your AWS Directory Service service and a AWS Managed Microsoft AD Directory\.
+Amazon WorkDocs uses a directory to store and manage organization information for your users and their documents\. You can create a Simple AD directory using Quick Start or Standard Setup, or create an AD Connector directory to connect to your on\-premises directory\. Alternatively, you can enable Amazon WorkDocs to work with an existing AWS directory, or you can have Amazon WorkDocs create a directory for you\. You can also create a trust relationship between your AD directory and an AWS Managed Microsoft AD Directory\.
 
 **Note**  
 If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a AWS Managed Microsoft AD Directory to meet compliance requirements\.

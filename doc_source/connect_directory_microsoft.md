@@ -12,8 +12,8 @@ If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must 
 + [Step 3: Complete Admin Control Panel Setup](#microsoft-dir-admin-panel)
 
 ## Before You Begin<a name="microsoft-dir-prereqs"></a>
-+ You must create a Trust Relationship between your AWS Directory service and AWS Managed Microsoft AD\. For more information, see [When to Create a Trust Relationship](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/setup_trust.html)\.
-+ You must create a AWS Managed Microsoft AD\. For more information, see [How to Create a Microsoft AD directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/create_managed_ad.html)\.
++ You must create an AWS Managed Microsoft AD\. For more information, see [How to Create a Microsoft AD directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/create_managed_ad.html)\.
++ You must create a Trust Relationship between your AD directory and the AWS Managed Microsoft AD\. For more information, see [When to Create a Trust Relationship](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/setup_trust.html)\.
 + When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
 
 ## Step 1: Launch the Amazon WorkDocs Site<a name="microsoft-dir-site"></a>
@@ -56,7 +56,7 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. Under **My account**, choose **Open admin control panel**\.
 
-1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Storage Settings](manage-sites.md#storage-limits), [Managing Security Settings](security-settings.md), and [Recovery Bin Retention Settings](manage-sites.md#recovery-bin)\.
+1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing Site Settings](manage-sites.md)\.
 
 1. Under **Manage Users**, invite new users\. You can also edit user settings\. 
 

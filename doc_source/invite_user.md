@@ -2,7 +2,7 @@
 
 For more information about enabling users in a connected directory scenario, see [Editing Users](edit_user.md)\.
 
-For cloud directories, invite new users to join your directory\. Existing users can also invite new users when enabled\. For more information, see [Invite and New User Settings](invite_settings.md)\.
+For cloud directories, invite new users to join your directory\. Existing users can also invite new users when enabled\. For more information, see [Security – Cloud Directory Invite Settings](manage-sites.md#invite-settings-cloud)\.
 
 **To invite new users to a cloud directory**
 

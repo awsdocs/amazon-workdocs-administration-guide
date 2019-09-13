@@ -45,7 +45,7 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. Under **My account**, choose **Open admin control panel**\.
 
-1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Storage Settings](manage-sites.md#storage-limits), [Managing Security Settings](security-settings.md), and [Recovery Bin Retention Settings](manage-sites.md#recovery-bin)\.
+1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing Site Settings](manage-sites.md)\.
 
 1. Under **Manage Users**, invite new users\. You can also edit user settings\. 
 

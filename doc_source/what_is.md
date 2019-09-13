@@ -8,7 +8,7 @@ For more information, see [Amazon WorkDocs](https://aws.amazon.com/workdocs/)\.
 
 ## Accessing Amazon WorkDocs<a name="accessing"></a>
 
-Administrators use the [Amazon WorkDocs console](https://console.aws.amazon.com/zocalo/) to create and deactivate Amazon WorkDocs sites\. With the admin control panel, they can manage users, storage, and security settings\. For more information, see [Managing Sites](manage-sites.md), [Inviting and Managing Amazon WorkDocs Users](users.md), and [Managing Security Settings](security-settings.md)\.
+Administrators use the [Amazon WorkDocs console](https://console.aws.amazon.com/zocalo/) to create and deactivate Amazon WorkDocs sites\. With the admin control panel, they can manage users, storage, and security settings\. For more information, see [Managing Site Settings](manage-sites.md) and [Inviting and Managing Amazon WorkDocs Users](users.md)\.
 
 Non\-administrative users use the client applications to access their files\. They never use the Amazon WorkDocs console or the administration dashboard\. Amazon WorkDocs offers several different client applications and utilities:
 + A web application used for document management and reviewing\.

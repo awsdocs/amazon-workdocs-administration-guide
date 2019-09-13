@@ -1,18 +1,8 @@
-# Managing Sites<a name="manage-sites"></a>
+# Managing Site Settings<a name="manage-sites"></a>
 
-Administrators can manage site\-wide operations, such as choosing a preferred language for site content and email notifications, setting storage limits, and specifying recovery bin retention policy\. They can also change settings for [Managing Security Settings](security-settings.md) and [Inviting and Managing Amazon WorkDocs Users](users.md)\.
+Administrators can manage site\-wide settings, such as choosing a preferred language for site content and email notifications, setting storage limits, and specifying recovery bin retention policy\. Administrators can also change site security settings for public sharing, invites, and new users\.
 
-**Topics**
-+ [Language Settings](#language-settings)
-+ [Online Editing Settings](#online-editing)
-+ [Storage Settings](#storage-limits)
-+ [IP Allow List Settings](#ipfiltering)
-+ [Security Settings](#manage-security-settings)
-+ [Recovery Bin Retention Settings](#recovery-bin)
-+ [Manage Users Settings](#manage-users-settings)
-+ [Deleting a Site](#delete_site)
-
-## Language Settings<a name="language-settings"></a>
+## Preferred Language Settings<a name="language-settings"></a>
 
 Specify the language to use for site content and email notifications\.
 
@@ -22,11 +12,11 @@ Specify the language to use for site content and email notifications\.
 
 1. For **Preferred Language Settings**, choose your preferred language\.
 
-## Online Editing Settings<a name="online-editing"></a>
+## Hancom Online Editing and Office Online<a name="online-editing"></a>
 
-Enable or disable online editing settings from the **Admin control panel**\. For more information, see [Enabling Collaborative Editing](collab-editing.md)\.
+Enable or disable **Hancom Online Editing** and **Office Online** settings from the **Admin control panel**\. For more information, see [Enabling Collaborative Editing](collab-editing.md)\.
 
-## Storage Settings<a name="storage-limits"></a>
+## Storage<a name="storage-limits"></a>
 
 Specify the amount of storage that new users receive\.
 
@@ -42,7 +32,7 @@ Specify the amount of storage that new users receive\.
 
 Changing the storage setting affects only users that are added after the setting is changed\. It does not change the amount of storage allocated to existing users\. To change the storage limit for an existing user, see [Editing Users](edit_user.md)\.
 
-## IP Allow List Settings<a name="ipfiltering"></a>
+## IP Allow List<a name="ipfiltering"></a>
 
 Amazon WorkDocs site administrators can add **IP Allow List** settings to restrict site access to an allowed range of IP addresses\. You can add up to 32 **IP Allow List** settings per site\.
 
@@ -66,11 +56,72 @@ The **IP Allow List** currently works for IPv4 addresses only\. IP address denyl
 **Warning**  
 If you enter a CIDR value that blocks you from using your current IP address to access the site, a warning message appears\. If you choose to continue with the current CIDR value, you will be blocked from accessing the site with your current IP address\. This action can only be reversed by contacting AWS Support\.
 
-## Security Settings<a name="manage-security-settings"></a>
+## Security – Public Share Settings<a name="external_share_settings"></a>
 
-You can manage security settings for users\. This includes setting up external sharing and publicly shareable link options, and configuring default settings for user invites, new users, and enabled users\. For more information, see [Managing Security Settings](security-settings.md)\.
+In the **Admin control panel**, under **Security**, choose **Who should be allowed to send publicly shareable links?** to specify which users are allowed to send file view links to people outside of the organization\. Choose from the following settings:
 
-## Recovery Bin Retention Settings<a name="recovery-bin"></a>
+**No public sharing**  
+Users cannot send view links to anyone outside the organization\.
+
+**All managed users can share publicly **  
+All users can send view links to anyone outside the organization\. 
+
+**Only Power users can share publicly**  
+Only Power users can send view links to people outside the organization\. 
+
+## Security – Cloud Directory Invite Settings<a name="invite-settings-cloud"></a>
+
+For a cloud directory, choose from the following settings for **Who should be allowed to join your WorkDocs site?**\.
+
+**Only administrators can invite new users**  
+Users cannot invite new users\.
+
+**Users can invite new people from anywhere by sharing files or folders with them**  
+Users can invite new people from anywhere outside the organization by sharing files or folders with them\. 
+
+**Users can invite new people from a few specific domains by sharing files or folders with them**  
+Users can invite new people from the specified domains by sharing files or folders with them\. 
+
+## Security – Connected Directory Invite Settings<a name="invite-settings-connected"></a>
+
+For a connected directory, choose from the following settings for **Who should be allowed to join your WorkDocs site?**\.
+
+**Only administrators can enable new users**  
+Only administrators can enable users to use Amazon WorkDocs\.
+
+**Users can enable new people from your directory by sharing files or folders with them**  
+Users can enable people that already exist in your directory to use Amazon WorkDocs by sharing files or folders with them\. 
+
+**Users can invite new people from a few specific domains by sharing files or folders with them**  
+Users can invite new people from the specified domains by sharing files or folders with them\. 
+
+## Security – Connected Directory External Invites<a name="ext-invite-settings"></a>
+
+Choose from the following settings for **Who should be allowed to invite external users to your WorkDocs site?**
+
+**Share with external users**  
+Choose this option to enable sharing with external users\.
+
+**Only administrators can invite new external users**  
+Only administrators can invite external users to use Amazon WorkDocs\.
+
+**All managed users can invite new external users**  
+All users can invite new external users to use Amazon WorkDocs\.
+
+**Only Power users can invite new external users**  
+Only Power users can invite new external users to use Amazon WorkDocs\.
+
+## Security – Connected Directory New User Settings<a name="connected-new-user"></a>
+
+Choose from the following settings for **Configure role for new users**\.
+
+**New users from your directory will be Managed users \(they are Guest users by default\)**  
+New users from your directory will be assigned the role of Guest user\.
+
+**New external users will be Managed users \(they are Guest users by default\)**  
+New external users will be assigned the role of Guest user\.
+
+## Recovery Bin Retention<a name="recovery-bin"></a>
 
 Files deleted by a user are stored in the user’s recycle bin for 30 days\. Afterwards, the files are temporarily moved to a recovery bin for 60 days before they are permanently deleted\. The recovery bin is visible only to administrators\. By changing the site\-wide data retention policy, site administrators can change the recovery bin retention period, up to a maximum of 365 days\. Files are permanently deleted at the end of the retention period\.
 
