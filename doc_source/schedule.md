@@ -41,7 +41,7 @@ The Amazon WorkDocs Migration Service provides an AWS Identity and Access Manage
       + For the Asia Pacific \(Singapore\) Region, enter `900469912330`
       + For the Asia Pacific \(Sydney\) Region, enter `031131923584`
       + For the Asia Pacific \(Tokyo\) Region, enter `178752524102`
-      + For the EU \(Ireland\) Region, enter `191921258524`
+      + For the Europe \(Ireland\) Region, enter `191921258524`
 
    1. Select the new policy that you created and choose **Next: Review**\. If you don't see the new policy, choose the refresh icon\.
 

@@ -14,7 +14,7 @@ If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must 
 ## Before You Begin<a name="microsoft-dir-prereqs"></a>
 + You must create an AWS Managed Microsoft AD\. For more information, see [How to Create a Microsoft AD directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/create_managed_ad.html)\.
 + You must create a Trust Relationship between your AD directory and the AWS Managed Microsoft AD\. For more information, see [When to Create a Trust Relationship](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/setup_trust.html)\.
-+ When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
++ When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator\. This information includes first name, last name, and email address\. Do not use **Admin** for your Amazon WorkDocs account user name\. **Admin** is a reserved user role in Amazon WorkDocs\.
 
 ## Step 1: Launch the Amazon WorkDocs Site<a name="microsoft-dir-site"></a>
 
@@ -24,7 +24,7 @@ Follow the steps below to launch your Amazon WorkDocs site\.
 
 1. Open the Amazon WorkDocs console at [https://console\.aws\.amazon\.com/zocalo/](https://console.aws.amazon.com/zocalo/)\.
 
-   If you have never created or connected a directory in the selected region, you see the Amazon WorkDocs start page\. After you create a directory in a particular region, the start page is no longer available and you see the **Manage Your WorkDocs Sites** page instead\.
+   If you have never created or connected a directory in the selected Region, you see the Amazon WorkDocs start page\. After you create a directory in a particular Region, the start page is no longer available and you see the **Manage Your WorkDocs Sites** page instead\.
 
 1. Choose **Get Started Now** from the Amazon WorkDocs start page or choose **Create a New WorkDocs Site** from the **Manage Your WorkDocs Sites** page\.
 
@@ -38,7 +38,7 @@ Follow the steps below to enable your AWS Managed Microsoft AD and set an admini
 
 1. From the list of available directories, select the AWS Managed Microsoft AD to use for your Amazon WorkDocs site\.
 **Note**  
-Make sure that site is being created in the same region as the AWS Managed Microsoft AD\. 
+Make sure that site is being created in the same Region as the AWS Managed Microsoft AD\. 
 
 1. Choose **Enable directory**\.
 

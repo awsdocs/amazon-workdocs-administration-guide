@@ -9,9 +9,9 @@ In this tutorial, you’ll learn how to set up an Amazon WorkDocs site by enabli
 + [Step 3: Complete Admin Control Panel Setup](#existing-dir-admin-panel)
 
 ## Before You Begin<a name="existing-dir-prereqs"></a>
-+ You must have an existing AWS Directory Service directory in the current region\. This can be either a Simple AD directory or an AD Connector directory\. 
++ You must have an existing AWS Directory Service directory in the current Region\. This can be either a Simple AD directory or an AD Connector directory\. 
 + If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a AWS Managed Microsoft AD Directory to meet compliance requirements\. For more information, see [Getting Started with AWS Managed Microsoft AD](connect_directory_microsoft.md)\.
-+ When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
++ When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator\. This information includes first name, last name, and email address\. Do not use **Admin** for your Amazon WorkDocs account user name\. **Admin** is a reserved user role in Amazon WorkDocs\.
 
 ## Step 1: Launch the Amazon WorkDocs Site<a name="existing-dir-site"></a>
 

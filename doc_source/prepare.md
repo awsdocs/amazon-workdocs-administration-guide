@@ -7,7 +7,7 @@
 1. Confirm that the files to be migrated are less than 5 TB each\. Each file name must be 255 characters or fewer\. Amazon WorkDocs Drive displays only files with a full directory path of 260 characters or fewer\.
 
 **Warning**  
-Attempting to migrate files or folders with names containing the following characters can cause errors during migration\. This stops the migration process\. If this occurs, choose **Download report** to download a log listing the errors, the files that failed to migrate, and any successfully migrated files\.
+Attempting to migrate files or folders with names containing the following characters can cause errors and stop the migration process\. If this occurs, choose **Download report** to download a log listing the errors, the files that failed to migrate, and any successfully migrated files\.
 + **Trailing spaces**–For example: an extra space at the end of a file name\.
 + **Periods at the beginning or end**–For example: `.file`, `.file.ppt`, `.`, `..`, or `file.`
 + **Tildes at the beginning or end**–For example: `file.doc~`, `~file.doc`, or `~$file.doc`

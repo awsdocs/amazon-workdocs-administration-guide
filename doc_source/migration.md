@@ -10,6 +10,10 @@ Complete the following tasks to migrate your files and folders to Amazon WorkDoc
 + Administrator permissions for your Amazon WorkDocs site
 + Permissions to create an IAM role
 
+If your Amazon WorkDocs site is set up on the same directory as your Amazon WorkSpaces fleet, you must follow these requirements:
++ Do not use **Admin** for your Amazon WorkDocs account user name\. **Admin** is a reserved user role in Amazon WorkDocs\.
++ Your Amazon WorkDocs administrator user type must be **Upgraded WS User**\. For more information, see [User Roles Overview](users_ovw.md) and [Editing Users](edit_user.md)\.
+
 **Note**  
 Directory structure, file names, and file content are preserved when migrating to Amazon WorkDocs\. File ownership and permissions are not preserved\.
 

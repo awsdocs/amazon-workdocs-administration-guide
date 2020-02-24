@@ -1,6 +1,6 @@
 # Identity and Access Management for Amazon WorkDocs<a name="security-iam"></a>
 
-AWS Identity and Access Management \(IAM\) is an AWS service that helps an administrator securely control access to AWS resources\. IAM administrators control who can be *authenticated* \(signed in\) and *authorized* \(have permissions\) to use resources\. IAM is an AWS service that you can use with no additional charge\.
+AWS Identity and Access Management \(IAM\) is an AWS service that helps an administrator securely control access to AWS resources\. IAM administrators control who can be *authenticated* \(signed in\) and *authorized* \(have permissions\) to use Amazon WorkDocs resources\. IAM is an AWS service that you can use with no additional charge\.
 
 **Topics**
 + [Audience](#security_iam_audience)
@@ -12,13 +12,13 @@ AWS Identity and Access Management \(IAM\) is an AWS service that helps an admin
 
 ## Audience<a name="security_iam_audience"></a>
 
-How you use AWS Identity and Access Management \(IAM\) differs, depending on the work you do in \.
+How you use AWS Identity and Access Management \(IAM\) differs, depending on the work you do in Amazon WorkDocs\.
 
-**Service user** – If you use the service to do your job, then your administrator provides you with the credentials and permissions that you need\. As you use more features to do your work, you might need additional permissions\. Understanding how access is managed can help you request the right permissions from your administrator\. If you cannot access a feature in , see [Troubleshooting Amazon WorkDocs Identity and Access](security_iam_troubleshoot.md)\.
+**Service user** – If you use the Amazon WorkDocs service to do your job, then your administrator provides you with the credentials and permissions that you need\. As you use more Amazon WorkDocs features to do your work, you might need additional permissions\. Understanding how access is managed can help you request the right permissions from your administrator\. If you cannot access a feature in Amazon WorkDocs, see [Troubleshooting Amazon WorkDocs Identity and Access](security_iam_troubleshoot.md)\.
 
-**Service administrator** – If you're in charge of resources at your company, you probably have full access to \. It's your job to determine which features and resources your employees should access\. You must then submit requests to your IAM administrator to change the permissions of your service users\. Review the information on this page to understand the basic concepts of IAM\. To learn more about how your company can use IAM with , see [How Amazon WorkDocs Works with IAM](security_iam_service-with-iam.md)\.
+**Service administrator** – If you're in charge of Amazon WorkDocs resources at your company, you probably have full access to Amazon WorkDocs\. It's your job to determine which Amazon WorkDocs features and resources your employees should access\. You must then submit requests to your IAM administrator to change the permissions of your service users\. Review the information on this page to understand the basic concepts of IAM\. To learn more about how your company can use IAM with Amazon WorkDocs, see [How Amazon WorkDocs Works with IAM](security_iam_service-with-iam.md)\.
 
-**IAM administrator** – If you're an IAM administrator, you might want to learn details about how you can write policies to manage access to \. To view example identity\-based policies that you can use in IAM, see [Amazon WorkDocs Identity\-Based Policy Examples](security_iam_id-based-policy-examples.md)\.
+**IAM administrator** – If you're an IAM administrator, you might want to learn details about how you can write policies to manage access to Amazon WorkDocs\. To view example Amazon WorkDocs identity\-based policies that you can use in IAM, see [Amazon WorkDocs Identity\-Based Policy Examples](security_iam_id-based-policy-examples.md)\.
 
 ## Authenticating With Identities<a name="security_iam_authentication"></a>
 
@@ -75,7 +75,7 @@ Resource\-based policies are JSON policy documents that you attach to a resource
 
 ### Access Control Lists \(ACLs\)<a name="security_iam_access-manage-acl"></a>
 
-Access control policies \(ACLs\) control which principals \(account members, users, or roles\) have permissions to access a resource\. ACLs are similar to resource\-based policies, although they are the only policy type that does not use the JSON policy document format\. Amazon S3, AWS WAF, and Amazon VPC are examples of services that support ACLs\. To learn more about ACLs, see [Access Control List \(ACL\) Overview](https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html) in the *Amazon Simple Storage Service Developer Guide*\.
+Access control lists \(ACLs\) are a type of policy that controls which principals \(account members, users, or roles\) have permissions to access a resource\. ACLs are similar to resource\-based policies, although they do not use the JSON policy document format\. Amazon S3, AWS WAF, and Amazon VPC are examples of services that support ACLs\. To learn more about ACLs, see [Access Control List \(ACL\) Overview](https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html) in the *Amazon Simple Storage Service Developer Guide*\.
 
 ### Other Policy Types<a name="security_iam_access-manage-other-policies"></a>
 

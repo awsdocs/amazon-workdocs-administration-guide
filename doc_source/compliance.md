@@ -1,6 +1,6 @@
 # Compliance Validation for Amazon WorkDocs<a name="compliance"></a>
 
-Third\-party auditors assess the security and compliance of Amazon WorkDocs as part of multiple AWS compliance programs\. These compliance programs include SOC, PCI DSS, FedRAMP, HIPAA, ISO 9001, ISO 27001, ISO 27107, and ISO 27018\.
+Third\-party auditors assess the security and compliance of Amazon WorkDocs as part of multiple AWS compliance programs\. These compliance programs include SOC, PCI DSS, FedRAMP, HIPAA, ISO 9001, ISO 27001, ISO 27017, and ISO 27018\.
 
 For a list of AWS services in scope of specific compliance programs, see [AWS Services in Scope by Compliance Program](http://aws.amazon.com/compliance/services-in-scope/)\. For general information, see [AWS Compliance Programs](http://aws.amazon.com/compliance/programs/)\.
 

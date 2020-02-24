@@ -24,7 +24,7 @@ Using Quick Start, you can launch your first Amazon WorkDocs site in minutes\.
 
 1. Open the Amazon WorkDocs console at [https://console\.aws\.amazon\.com/zocalo/](https://console.aws.amazon.com/zocalo/)\.
 
-   If you have never created or connected a directory in the selected region, you see the Amazon WorkDocs start page\. After you create a directory in a particular region, the start page is no longer available and you see the **Manage Your WorkDocs Sites** page instead\.
+   If you have never created or connected a directory in the selected Region, you see the Amazon WorkDocs start page\. After you create a directory in a particular Region, the start page is no longer available and you see the **Manage Your WorkDocs Sites** page instead\.
 
 1. Choose **Get Started Now** from the Amazon WorkDocs start page or choose **Create a New WorkDocs Site** from the **Manage Your WorkDocs Sites** page\.
 
@@ -38,7 +38,7 @@ Follow the steps below to create an access point and set an administrator\.
 
 1. From the **WorkDocs Quick Start** page, enter the following values for **Access Point**:  
 **Region**  
-Verify the region\.  
+Verify the Region\.  
 **Site URL**  
 Enter the URL for your Amazon WorkDocs site\.
 
