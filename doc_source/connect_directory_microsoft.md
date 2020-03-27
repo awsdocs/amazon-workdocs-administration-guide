@@ -46,6 +46,8 @@ Make sure that site is being created in the same Region as the AWS Managed Micro
 
    It takes several minutes for the directory to be connected and the Amazon WorkDocs site to be created\. When the directory has been successfully connected, the **Status** value of the site changes to `Active`\.
 
+All the users in the directory are added to your account as active Amazon WorkDocs users by default\. They can sign in and start using Amazon WorkDocs at any time\. For more information about user roles, see [User Roles Overview](users_ovw.md)\.
+
 ## Step 3: Complete Admin Control Panel Setup<a name="microsoft-dir-admin-panel"></a>
 
 After you receive the administrator registration email, connect to the Amazon WorkDocs site using the client of your choice and complete setup from your admin control panel\.
@@ -58,6 +60,6 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing Site Settings](manage-sites.md)\.
 
-1. Under **Manage Users**, invite new users\. You can also edit user settings\. 
+1. \(Optional\) Under **Manage Users**, choose **Invite Users**\. You can also edit user settings\. 
 
 For more information, see [Inviting and Managing Amazon WorkDocs Users](users.md)\.

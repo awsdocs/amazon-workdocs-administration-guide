@@ -55,4 +55,5 @@ Amazon's trademarks and trade dress may not be used in
    + [Step 4: Tracking a Migration](track.md)
    + [Step 5: Cleaning Up Resources](cleanup.md)
 + [Troubleshooting Amazon WorkDocs Issues](troubleshooting.md)
++ [Managing Amazon WorkDocs for Amazon Business](workdocs-amazon-business-admin.md)
 + [Document History](document_history.md)

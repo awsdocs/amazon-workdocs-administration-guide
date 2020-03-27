@@ -1,10 +1,8 @@
 # Inviting New Users<a name="invite_user"></a>
 
-For more information about enabling users in a connected directory scenario, see [Editing Users](edit_user.md)\.
+Invite new users to join your directory from the **Admin Control Panel**\. You can also enable existing users to invite new users\. For more information, see [Security – Invite Settings](manage-sites.md#invite-settings)\.
 
-For cloud directories, invite new users to join your directory\. Existing users can also invite new users when enabled\. For more information, see [Security – Cloud Directory Invite Settings](manage-sites.md#invite-settings-cloud)\.
-
-**To invite new users to a cloud directory**
+**To invite new users**
 
 1. In the **Admin Control Panel**, under **Manage Users**, choose **Invite Users**\.
 

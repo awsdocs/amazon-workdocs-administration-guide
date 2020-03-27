@@ -72,6 +72,6 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing Site Settings](manage-sites.md)\.
 
-1. Under **Manage Users**, invite new users\. You can also edit user settings\. 
+1. Under **Manage Users**, choose **Invite Users**\. You can also edit user settings\. 
 
 For more information, see [Inviting and Managing Amazon WorkDocs Users](users.md)\.
