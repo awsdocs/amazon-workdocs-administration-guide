@@ -1,4 +1,4 @@
-# Step 3: Scheduling a Migration<a name="schedule"></a>
+# Step 3: Scheduling a migration<a name="schedule"></a>
 
 After you complete steps 1 and 2, use the Amazon WorkDocs Migration Service to schedule the migration\. When you schedule the migration, your Amazon WorkDocs user account **Storage** setting is automatically changed to **Unlimited**\.
 

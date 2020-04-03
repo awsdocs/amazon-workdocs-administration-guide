@@ -1,4 +1,4 @@
-# Sharing and Collaboration<a name="share_collab"></a>
+# Sharing and collaboration<a name="share_collab"></a>
 
 Users can share content by sending a link or an invite\. They can also collaborate with external users if external sharing is enabled\.
 
@@ -7,4 +7,4 @@ Amazon WorkDocs controls access to folders and files through the use of permissi
 **Topics**
 + [Sharing](sharing.md)
 + [Permissions](permissions.md)
-+ [Enabling Collaborative Editing](collab-editing.md)
++ [Enabling collaborative editing](collab-editing.md)

@@ -1,4 +1,4 @@
-# Step 1: Preparing for Migration<a name="prepare"></a>
+# Step 1: Preparing for migration<a name="prepare"></a>
 
 **To prepare for migration**
 

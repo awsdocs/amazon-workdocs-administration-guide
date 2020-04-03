@@ -1,4 +1,4 @@
-# Step 5: Cleaning Up Resources<a name="cleanup"></a>
+# Step 5: Cleaning up resources<a name="cleanup"></a>
 
 When your migration is complete, delete the migration policy and role that you created from the IAM console\.
 
@@ -20,4 +20,4 @@ When your migration is complete, delete the migration policy and role that you c
 
 1. Choose **Delete role**, **Delete**\.
 
-When a scheduled migration starts, your Amazon WorkDocs user account **Storage** setting is automatically changed to **Unlimited**\. After the migration, you can change your **Storage** settings by editing your user account from the Admin Control Panel\. For more information, see [Editing Users](edit_user.md)\.
+When a scheduled migration starts, your Amazon WorkDocs user account **Storage** setting is automatically changed to **Unlimited**\. After the migration, you can change your **Storage** settings by editing your user account from the admin control panel\. For more information, see [Editing users](edit_user.md)\.

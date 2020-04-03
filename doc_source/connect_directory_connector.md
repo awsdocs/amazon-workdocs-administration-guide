@@ -1,18 +1,18 @@
-# Getting Started with AD Connector<a name="connect_directory_connector"></a>
+# Getting started with AD Connector<a name="connect_directory_connector"></a>
 
 In this tutorial, you’ll learn how to set up an Amazon WorkDocs site using an AWS Directory Service AD Connector directory to connect to your on\-premises directory\. 
 
 **Topics**
-+ [Before You Begin](#ad-connector-prereqs)
-+ [Step 1: Launch the Amazon WorkDocs Site](#ad-connector-site)
-+ [Step 2: Connect Directory](#ad-connector-dir)
-+ [Step 3: Complete Admin Control Panel Setup](#ad-connector-admin-panel)
++ [Before you begin](#ad-connector-prereqs)
++ [Step 1: Launch the Amazon WorkDocs site](#ad-connector-site)
++ [Step 2: Connect directory](#ad-connector-dir)
++ [Step 3: Complete admin control panel setup](#ad-connector-admin-panel)
 
-## Before You Begin<a name="ad-connector-prereqs"></a>
+## Before you begin<a name="ad-connector-prereqs"></a>
 + You must meet the prerequisites identified in [AD Connector Prerequisites](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/connect_prereq.html) in the *AWS Directory Service Administration Guide*\.
 + When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator\. This information includes first name, last name, and email address\. Do not use **Admin** for your Amazon WorkDocs account user name\. **Admin** is a reserved user role in Amazon WorkDocs\.
 
-## Step 1: Launch the Amazon WorkDocs Site<a name="ad-connector-site"></a>
+## Step 1: Launch the Amazon WorkDocs site<a name="ad-connector-site"></a>
 
 Follow the steps below to launch your Amazon WorkDocs site and connect to your on\-premises directory\.
 
@@ -26,7 +26,7 @@ Follow the steps below to launch your Amazon WorkDocs site and connect to your o
 
 1. On the **Get Started with WorkDocs** page, next to **Standard Setup**, choose **Launch**\.
 
-## Step 2: Connect Directory<a name="ad-connector-dir"></a>
+## Step 2: Connect directory<a name="ad-connector-dir"></a>
 
 Follow the steps below to connect to your on\-premises directory using an AWS Directory Service AD Connector directory\.
 
@@ -64,9 +64,9 @@ The subnets in the VPC to use to connect to your on\-premises directory\. The tw
 
    It takes several minutes for the directory to be connected and the Amazon WorkDocs site to be created\. When the directory has been successfully connected, the **Status** value of the site changes to `Active`\.
 
-All the users in the directory are added to your account as active Amazon WorkDocs users by default\. They can sign in and start using Amazon WorkDocs at any time\. For more information about user roles, see [User Roles Overview](users_ovw.md)\.
+All the users in the directory are added to your account as active Amazon WorkDocs users by default\. They can sign in and start using Amazon WorkDocs at any time\. For more information about user roles, see [User roles overview](users_ovw.md)\.
 
-## Step 3: Complete Admin Control Panel Setup<a name="ad-connector-admin-panel"></a>
+## Step 3: Complete admin control panel setup<a name="ad-connector-admin-panel"></a>
 
 After you receive the administrator registration email, connect to the Amazon WorkDocs site using the client of your choice and complete setup from your admin control panel\.
 
@@ -76,8 +76,8 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. Under **My account**, choose **Open admin control panel**\.
 
-1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing Site Settings](manage-sites.md)\.
+1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing site settings](manage-sites.md)\.
 
 1. \(Optional\) Under **Manage Users**, choose **Invite Users**\. You can also edit user settings\. 
 
-For more information, see [Inviting and Managing Amazon WorkDocs Users](users.md)\.
+For more information, see [Inviting and managing Amazon WorkDocs users](users.md)\.

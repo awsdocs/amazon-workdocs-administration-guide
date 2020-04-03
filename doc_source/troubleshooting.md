@@ -13,7 +13,7 @@ The following information can help you troubleshoot issues with Amazon WorkDocs\
 
 ## Can't set up my Amazon WorkDocs site in a specific AWS Region<a name="region"></a>
 
-If you're setting up a new Amazon WorkDocs site, select the AWS Region during setup\. For more information, see the tutorial for your particular use case under [Getting Started with Amazon WorkDocs](getting_started.md)\.
+If you're setting up a new Amazon WorkDocs site, select the AWS Region during setup\. For more information, see the tutorial for your particular use case under [Getting started with Amazon WorkDocs](getting_started.md)\.
 
 ## Want to set up my Amazon WorkDocs site in an existing Amazon VPC<a name="existing-vpc"></a>
 
@@ -29,11 +29,11 @@ To revoke access to the document, choose **Share by invite** next to the documen
 
 ## User left the organization and didn't transfer document ownership<a name="user-left"></a>
 
-Transfer document ownership to another user in the **Admin Control Panel**\. For more information, see [Transferring Document Ownership](transfer-docs.md)\.
+Transfer document ownership to another user in the admin control panel\. For more information, see [Transferring document ownership](transfer-docs.md)\.
 
 ## Need to deploy Amazon WorkDocs Drive or Amazon WorkDocs Companion to multiple users<a name="deploy-multiple"></a>
 
-Deploy to multiple users in an enterprise by using group policy\. For more information, see [Identity and Access Management for Amazon WorkDocs](security-iam.md)\.
+Deploy to multiple users in an enterprise by using group policy\. For more information, see [Identity and access management for Amazon WorkDocs](security-iam.md)\.
 
 ## Online editing isn't working<a name="online-editing"></a>
 

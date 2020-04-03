@@ -3,10 +3,10 @@
 To set up new Amazon WorkDocs sites, or manage existing sites, you must complete the following tasks\.
 
 **Topics**
-+ [Sign Up for AWS](#console_signup)
-+ [Create IAM Users and Groups \(Recommended\)](#create-iam-users)
++ [Sign up for AWS](#console_signup)
++ [Create IAM users and groups \(recommended\)](#create-iam-users)
 
-## Sign Up for AWS<a name="console_signup"></a>
+## Sign up for AWS<a name="console_signup"></a>
 
 Your AWS account gives you access to all services, but you are charged only for the resources that you use\.
 
@@ -22,8 +22,8 @@ If you do not have an AWS account, complete the following steps to create one\.
 
 Your AWS root account credentials identify you to services in AWS and grant you unlimited use of your AWS resources, such as your Amazon WorkDocs sites\. 
 
-## Create IAM Users and Groups \(Recommended\)<a name="create-iam-users"></a>
+## Create IAM users and groups \(recommended\)<a name="create-iam-users"></a>
 
 To allow other users to set up new Amazon WorkDocs sites, or manage existing sites, without sharing your security credentials, use AWS Identity and Access Management \(IAM\)\. We recommend that everyone work as an IAM user, even the account owner\. You should create an IAM user for yourself, give that IAM user administrative privileges, and use it for all your work\.
 
-For more information, see [Identity and Access Management for Amazon WorkDocs](security-iam.md)\.
+For more information, see [Identity and access management for Amazon WorkDocs](security-iam.md)\.

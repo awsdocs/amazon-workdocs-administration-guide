@@ -1,8 +1,8 @@
-# Managing Site Settings<a name="manage-sites"></a>
+# Managing site settings<a name="manage-sites"></a>
 
 Administrators can manage site\-wide settings, such as choosing a preferred language for site content and email notifications, setting storage limits, and specifying recovery bin retention policy\. Administrators can also change site security settings for public sharing, invites, and new users\.
 
-## Preferred Language Settings<a name="language-settings"></a>
+## Preferred language settings<a name="language-settings"></a>
 
 Specify the language to use for site content and email notifications\.
 
@@ -14,7 +14,7 @@ Specify the language to use for site content and email notifications\.
 
 ## Hancom Online Editing and Office Online<a name="online-editing"></a>
 
-Enable or disable **Hancom Online Editing** and **Office Online** settings from the **Admin control panel**\. For more information, see [Enabling Collaborative Editing](collab-editing.md)\.
+Enable or disable **Hancom Online Editing** and **Office Online** settings from the **Admin control panel**\. For more information, see [Enabling collaborative editing](collab-editing.md)\.
 
 ## Storage<a name="storage-limits"></a>
 
@@ -30,9 +30,9 @@ Specify the amount of storage that new users receive\.
 
 1. Choose **Save Changes**\.
 
-Changing the storage setting affects only users that are added after the setting is changed\. It does not change the amount of storage allocated to existing users\. To change the storage limit for an existing user, see [Editing Users](edit_user.md)\.
+Changing the storage setting affects only users that are added after the setting is changed\. It does not change the amount of storage allocated to existing users\. To change the storage limit for an existing user, see [Editing users](edit_user.md)\.
 
-## IP Allow List<a name="ipfiltering"></a>
+## IP allow list<a name="ipfiltering"></a>
 
 Amazon WorkDocs site administrators can add **IP Allow List** settings to restrict site access to an allowed range of IP addresses\. You can add up to 32 **IP Allow List** settings per site\.
 
@@ -56,7 +56,7 @@ The **IP Allow List** currently works for IPv4 addresses only\. IP address denyl
 **Warning**  
 If you enter a CIDR value that blocks you from using your current IP address to access the site, a warning message appears\. If you choose to continue with the current CIDR value, you will be blocked from accessing the site with your current IP address\. This action can only be reversed by contacting AWS Support\.
 
-## Security – Public Share Settings<a name="external_share_settings"></a>
+## Security – public share settings<a name="external_share_settings"></a>
 
 In the **Admin control panel**, under **Security**, choose **Who should be allowed to create publicly shareable links?** to specify which users are allowed to send file view links to people outside of the organization\. Choose from the following settings:
 
@@ -69,7 +69,7 @@ All users can send view links to anyone outside the organization\.
 **Only Power users can share publicly**  
 Only Power users can send view links to people outside the organization\. 
 
-## Security – Invite Settings<a name="invite-settings"></a>
+## Security – invite settings<a name="invite-settings"></a>
 
 Choose from the following settings for **Who should be allowed to join your WorkDocs site?**\.
 
@@ -79,7 +79,7 @@ Users can invite new people from anywhere outside the organization by sharing fi
 **Users can invite new people from a few specific domains by sharing files or folders with them**  
 Users can invite new people from the specified domains by sharing files or folders with them\. 
 
-## Security – External Invites<a name="ext-invite-settings"></a>
+## Security – external invites<a name="ext-invite-settings"></a>
 
 Choose from the following settings for **Who should be allowed to invite external users to your WorkDocs site?**
 
@@ -92,7 +92,7 @@ All users can invite new external users to use Amazon WorkDocs\.
 **Only Power users can invite new external users**  
 Only Power users can invite new external users to use Amazon WorkDocs\.
 
-## Recovery Bin Retention<a name="recovery-bin"></a>
+## Recovery bin retention<a name="recovery-bin"></a>
 
 Files deleted by a user are stored in the user’s recycle bin for 30 days\. Afterwards, the files are temporarily moved to a recovery bin for 60 days before they are permanently deleted\. The recovery bin is visible only to administrators\. By changing the site\-wide data retention policy, site administrators can change the recovery bin retention period, up to a maximum of 365 days\. Files are permanently deleted at the end of the retention period\.
 
@@ -118,11 +118,11 @@ You can restore user files from the recovery bin before they are permanently del
 
 1. For **Restore file**, choose the location to which to restore the file, then choose **Restore**\.
 
-## Manage Users Settings<a name="manage-users-settings"></a>
+## Manage user settings<a name="manage-users-settings"></a>
 
-You can manage settings for users, including changing user roles and inviting, enabling, or disabling users\. For more information, see [Inviting and Managing Amazon WorkDocs Users](users.md)\.
+You can manage settings for users, including changing user roles and inviting, enabling, or disabling users\. For more information, see [Inviting and managing Amazon WorkDocs users](users.md)\.
 
-## Deleting a Site<a name="delete_site"></a>
+## Deleting a site<a name="delete_site"></a>
 
 Use the Amazon WorkDocs console to delete an Amazon WorkDocs site\.
 
@@ -133,13 +133,13 @@ You lose all user information and files when you delete a site\. Delete a site o
 
 1. Open the Amazon WorkDocs console at [https://console\.aws\.amazon\.com/zocalo/](https://console.aws.amazon.com/zocalo/)\.
 
-1. If necessary, from the navigation bar, choose the AWS Region that you need\. For more information, see [Regions and Endpoints](http://docs.aws.amazon.com/general/latest/gr/index.html?rande.html) in the *Amazon Web Services General Reference*\.
+1. If necessary, from the navigation bar, choose the AWS Region that you need\. For more information, see [Regions and endpoints](http://docs.aws.amazon.com/general/latest/gr/index.html?rande.html) in the *Amazon Web Services General Reference*\.
 
 1. On the **Manage Your WorkDocs Sites** page, choose the site to delete\. Choose **Actions**, then choose **Delete WorkDocs Site**\.
 
 1. In the **Delete Selected WorkDocs Site** dialog box, choose whether to delete the user directory at the same time\.
 
-   1. Choose **I also want to delete the user directory** to delete the AWS Directory Service Simple AD or AD Connector for an on\-premises Microsoft Active Directory\. To delete the directory, it cannot have any other AWS applications enabled\. For more information, see [Deleting a Simple AD Directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/simple_ad_delete.html) or [Deleting an AD Connector Directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/ad_connector_delete.html) in the *AWS Directory Service Administration Guide*\.
+   1. Choose **I also want to delete the user directory** to delete the AWS Directory Service Simple AD or AD Connector for an on\-premises Microsoft Active Directory\. To delete the directory, it cannot have any other AWS applications enabled\. For more information, see [Deleting a Simple AD directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/simple_ad_delete.html) or [Deleting an AD Connector directory](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/ad_connector_delete.html) in the *AWS Directory Service Administration Guide*\.
 
 1. Verify that you are deleting the proper site, type **DELETE** in the confirmation field, and choose **Delete WorkDocs Site**\. 
 

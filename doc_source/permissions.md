@@ -4,9 +4,9 @@ Amazon WorkDocs controls access to folders and files through the use of permissi
 
 **Topics**
 + [Roles](#roles)
-+ [Shared Folder Permissions](#folder_perms)
-+ [File Permissions](#doc_perms)
-+ [Shared File Permissions](#shared_document_perms)
++ [Shared folder permissions](#folder_perms)
++ [File permissions](#doc_perms)
++ [Shared file permissions](#shared_document_perms)
 
 ## Roles<a name="roles"></a>
 
@@ -23,7 +23,7 @@ The following roles apply to files:
 + Viewer – Someone who a file has been shared with, but has been given limited access \(view only\) to the file\.
 + Anonymous viewer – A non\-registered user outside of the organization who can view a file that has been shared via an external viewing link\. Unless otherwise indicated, an anonymous viewer has the same permissions as a viewer\.
 
-## Shared Folder Permissions<a name="folder_perms"></a>
+## Shared folder permissions<a name="folder_perms"></a>
 
 The following are the permissions defined by Amazon WorkDocs for shared folders:
 + View – View the contents of a shared folder\.
@@ -51,7 +51,7 @@ The following are the permissions defined by Amazon WorkDocs for shared folders:
 | Delete Sub\-folder | X | X |  |  | 
 | Delete Top\-level folder | X |  |  |  | 
 
-## File Permissions<a name="doc_perms"></a>
+## File permissions<a name="doc_perms"></a>
 
 The following are the permissions defined by Amazon WorkDocs for files that are not in a shared folder:
 + View – View a file\.
@@ -85,7 +85,7 @@ The following are the permissions defined by Amazon WorkDocs for files that are 
 | Share | X |  |  |  | 
 | Revoke Sharing | X |  |  |  | 
 
-## Shared File Permissions<a name="shared_document_perms"></a>
+## Shared file permissions<a name="shared_document_perms"></a>
 
 The following are the permissions defined by Amazon WorkDocs for files in a shared folder:
 + View – View a file in a shared folder\.

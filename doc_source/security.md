@@ -9,8 +9,8 @@ Security is a shared responsibility between AWS and you\. The [shared responsibi
 This documentation helps you understand how to apply the shared responsibility model when using Amazon WorkDocs\. The following topics show you how to configure Amazon WorkDocs to meet your security and compliance objectives\. You also learn how to use other AWS services that help you to monitor and secure your Amazon WorkDocs resources\. 
 
 **Topics**
-+ [Identity and Access Management for Amazon WorkDocs](security-iam.md)
-+ [Logging and Monitoring in Amazon WorkDocs](monitoring.md)
-+ [Compliance Validation for Amazon WorkDocs](compliance.md)
++ [Identity and access management for Amazon WorkDocs](security-iam.md)
++ [Logging and monitoring in Amazon WorkDocs](monitoring.md)
++ [Compliance validation for Amazon WorkDocs](compliance.md)
 + [Resilience in Amazon WorkDocs](disaster-recovery-resiliency.md)
-+ [Infrastructure Security in Amazon WorkDocs](infrastructure-security.md)
++ [Infrastructure security in Amazon WorkDocs](infrastructure-security.md)

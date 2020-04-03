@@ -1,19 +1,19 @@
-# Getting Started with Simple AD: Standard Setup<a name="cloud_standard_setup"></a>
+# Getting started with Simple AD: Standard Setup<a name="cloud_standard_setup"></a>
 
 In this tutorial, you’ll learn how to set up an Amazon WorkDocs site using **Standard Setup** to create a Simple AD directory in the cloud\.
 
 **Topics**
-+ [Before You Begin](#standard-setup-prereqs)
-+ [Step 1: Launch the Amazon WorkDocs Site](#standard-setup-site)
-+ [Step 2: Create Directory and Set Administrator](#standard-setup-directory)
-+ [Step 3: Complete Admin Control Panel Setup](#standard-setup-admin-panel)
++ [Before you begin](#standard-setup-prereqs)
++ [Step 1: Launch the Amazon WorkDocs site](#standard-setup-site)
++ [Step 2: Create directory and set administrator](#standard-setup-directory)
++ [Step 3: Complete admin control panel setup](#standard-setup-admin-panel)
 
-## Before You Begin<a name="standard-setup-prereqs"></a>
+## Before you begin<a name="standard-setup-prereqs"></a>
 + You must meet the prerequisites identified in [Simple AD Prerequisites](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/cloud_prereq.html) in the *AWS Directory Service Administration Guide*\.
-+ If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a AWS Managed Microsoft AD Directory to meet compliance requirements\. For more information, see [Getting Started with AWS Managed Microsoft AD](connect_directory_microsoft.md)\.
++ If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a AWS Managed Microsoft AD Directory to meet compliance requirements\. For more information, see [Getting started with AWS Managed Microsoft AD](connect_directory_microsoft.md)\.
 + When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
 
-## Step 1: Launch the Amazon WorkDocs Site<a name="standard-setup-site"></a>
+## Step 1: Launch the Amazon WorkDocs site<a name="standard-setup-site"></a>
 
 Follow the steps below to launch your Amazon WorkDocs site using **Standard Setup**\.
 
@@ -27,7 +27,7 @@ Follow the steps below to launch your Amazon WorkDocs site using **Standard Setu
 
 1. On the **Get Started with WorkDocs** page, next to **Standard Setup**, choose **Launch**\.
 
-## Step 2: Create Directory and Set Administrator<a name="standard-setup-directory"></a>
+## Step 2: Create directory and set administrator<a name="standard-setup-directory"></a>
 
 Follow the steps below to create a Simple AD directory and set an administrator\.
 
@@ -65,7 +65,7 @@ The subnets in the VPC that the directory is created in\. The two subnets must b
 
    It takes several minutes for the directory to be connected and the Amazon WorkDocs site to be created\. When the directory has been successfully connected, the **Status** value of the site changes to `Active`\.
 
-## Step 3: Complete Admin Control Panel Setup<a name="standard-setup-admin-panel"></a>
+## Step 3: Complete admin control panel setup<a name="standard-setup-admin-panel"></a>
 
 After you receive the administrator registration email, connect to the Amazon WorkDocs site using the client of your choice and complete setup from your admin control panel\.
 
@@ -75,8 +75,8 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. Under **My account**, choose **Open admin control panel**\.
 
-1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing Site Settings](manage-sites.md)\.
+1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing site settings](manage-sites.md)\.
 
 1. Under **Manage Users**, choose **Invite Users**\. You can also edit user settings\. 
 
-For more information, see [Inviting and Managing Amazon WorkDocs Users](users.md)\.
+For more information, see [Inviting and managing Amazon WorkDocs users](users.md)\.

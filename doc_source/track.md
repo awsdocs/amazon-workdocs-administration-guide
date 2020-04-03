@@ -1,4 +1,4 @@
-# Step 4: Tracking a Migration<a name="track"></a>
+# Step 4: Tracking a migration<a name="track"></a>
 
 You can track your migration from within the Amazon WorkDocs Migration Service landing page\. To access the landing page from the Amazon WorkDocs site, choose **Apps**, **Migrations**\. Choose your migration to view its details and track its progress\. You can also choose **Cancel Migration** if you need to cancel it, or choose **Update** to update the timeline for the migration\. After a migration is complete, you can choose **Download report** to download a log of the successfully migrated files, any failures, or errors\.
 

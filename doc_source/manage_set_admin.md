@@ -1,6 +1,6 @@
-# Promoting a User to Administrator<a name="manage_set_admin"></a>
+# Promoting a user to administrator<a name="manage_set_admin"></a>
 
-Use the Amazon WorkDocs console to promote a user to administrator\. The user must be active to be promoted\. For more information about activating a user, see [Editing Users](edit_user.md)\.
+Use the Amazon WorkDocs console to promote a user to administrator\. The user must be active to be promoted\. For more information about activating a user, see [Editing users](edit_user.md)\.
 
 **To promote a user to administrator**
 
@@ -10,4 +10,4 @@ Use the Amazon WorkDocs console to promote a user to administrator\. The user mu
 
 1. In the **Set WorkDocs Administrator** page, enter the user name to promote and choose **Set Administrator**\.
 
-You can also use the Amazon WorkDocs administration dashboard to demote an administrator\. For more information, see [Editing Users](edit_user.md)\.
+You can also use the Amazon WorkDocs administration dashboard to demote an administrator\. For more information, see [Editing users](edit_user.md)\.

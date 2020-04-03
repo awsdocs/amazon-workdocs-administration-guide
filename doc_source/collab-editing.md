@@ -1,4 +1,4 @@
-# Enabling Collaborative Editing<a name="collab-editing"></a>
+# Enabling collaborative editing<a name="collab-editing"></a>
 
 You can enable collaborative editing options under the **Online Editing Settings** section in your **Admin control panel**\.
 

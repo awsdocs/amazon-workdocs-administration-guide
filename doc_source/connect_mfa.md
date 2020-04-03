@@ -1,4 +1,4 @@
-# Enabling Multi\-Factor Authentication<a name="connect_mfa"></a>
+# Enabling multi\-factor authentication<a name="connect_mfa"></a>
 
 You can enable multi\-factor authentication for your AD Connector directory by performing the following procedure\. 
 
