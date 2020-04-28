@@ -25,36 +25,23 @@ To access the Amazon WorkDocs console, you must have a minimum set of permission
 
 To ensure that those entities can still use the Amazon WorkDocs console, also attach the following AWS managed policy to the entities\. For more information, see [Adding permissions to a user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_change-permissions.html#users_change_permissions-add-console) in the *IAM User Guide*\.
 
-This policy grants an IAM user full access to Amazon WorkDocs resources\. The policy gives the user access to all Amazon WorkDocs and AWS Directory Service operations, as well as several Amazon EC2 operations that Amazon WorkDocs needs to be able to perform on your behalf\.
+The AWS managed **AmazonWorkDocsFullAccess** policy grants an IAM user full access to Amazon WorkDocs resources\. The policy gives the user access to all Amazon WorkDocs and AWS Directory Service operations, as well as some Amazon EC2 operations that Amazon WorkDocs needs to be able to perform on your behalf\.
 
 ```
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Action": [
-          "workdocs:*",
-          "ds:*",
-          "ec2:CreateVpc",
-          "ec2:CreateSubnet",
-          "ec2:CreateNetworkInterface",
-          "ec2:CreateTags",
-          "ec2:CreateSecurityGroup",
-          "ec2:DescribeVpcs",
-          "ec2:DescribeSubnets",
-          "ec2:DescribeNetworkInterfaces",
-          "ec2:DescribeAvailabilityZones",
-          "ec2:AuthorizeSecurityGroupEgress",
-          "ec2:AuthorizeSecurityGroupIngress",
-          "ec2:DeleteSecurityGroup",
-          "ec2:DeleteNetworkInterface",
-          "ec2:RevokeSecurityGroupEgress",
-          "ec2:RevokeSecurityGroupIngress"
-          ],
-      "Effect": "Allow",
-      "Resource": "*"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "workdocs:*",
+                "ds:DescribeDirectories",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeSubnets"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
 ```
 
@@ -101,23 +88,23 @@ This example shows how you might create a policy that allows IAM users to view t
 
 ## Allow users read\-only access to Amazon WorkDocs resources<a name="security_iam_id-based-policy-examples-read-only-access"></a>
 
-The following policy statement grants an IAM user read\-only access to Amazon WorkDocs resources\. The policy gives the user access to all of the Amazon WorkDocs `Describe` operations\. Access to the two Amazon EC2 operations are necessary so Amazon WorkDocs can obtain a list of your VPCs and subnets\. Access to the AWS Directory Service `DescribeDirectories` operation is needed to obtain information about your AWS Directory Service directories\.
+The following AWS managed **AmazonWorkDocsReadOnlyAccess** policy grants an IAM user read\-only access to Amazon WorkDocs resources\. The policy gives the user access to all of the Amazon WorkDocs `Describe` operations\. Access to the two Amazon EC2 operations are necessary so Amazon WorkDocs can obtain a list of your VPCs and subnets\. Access to the AWS Directory Service `DescribeDirectories` operation is needed to obtain information about your AWS Directory Service directories\.
 
 ```
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Action": [
-          "workdocs:Describe*",
-          "ds:DescribeDirectories",       
-          "ec2:DescribeVpcs",
-          "ec2:DescribeSubnets"
-          ],
-      "Effect": "Allow",
-      "Resource": "*"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "workdocs:Describe*",
+                "ds:DescribeDirectories",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeSubnets"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
 ```
 
