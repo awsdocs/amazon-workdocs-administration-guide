@@ -21,29 +21,14 @@ Identity\-based policies are very powerful\. They determine whether someone can 
 
 ## Using the Amazon WorkDocs console<a name="security_iam_id-based-policy-examples-console"></a>
 
-To access the Amazon WorkDocs console, you must have a minimum set of permissions\. These permissions must allow you to list and view details about the Amazon WorkDocs resources in your AWS account\. If you create an identity\-based policy that is more restrictive than the minimum required permissions, the console won't function as intended for entities \(IAM users or roles\) with that policy\.
+To access the Amazon WorkDocs console, you must have a minimum set of permissions\. Those permissions must allow you to list and view the details of the Amazon WorkDocs resources in your AWS account\. If you create an identity\-based policy that is more restrictive than the minimum required permissions, the console won't function as intended for IAM user or role entities\.
 
-To ensure that those entities can still use the Amazon WorkDocs console, also attach the following AWS managed policy to the entities\. For more information, see [Adding permissions to a user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_change-permissions.html#users_change_permissions-add-console) in the *IAM User Guide*\.
+To ensure that those entities can use the Amazon WorkDocs console, also attach the following AWS managed policies to the entities\. For more information attaching policies, see [Adding permissions to a user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_change-permissions.html#users_change_permissions-add-console) in the *IAM User Guide*\.
++ **AmazonWorkDocsFullAccess**
++ **AWSDirectoryServiceFullAccess**
++ **AmazonEC2FullAccess**
 
-The AWS managed **AmazonWorkDocsFullAccess** policy grants an IAM user full access to Amazon WorkDocs resources\. The policy gives the user access to all Amazon WorkDocs and AWS Directory Service operations, as well as some Amazon EC2 operations that Amazon WorkDocs needs to be able to perform on your behalf\.
-
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "workdocs:*",
-                "ds:DescribeDirectories",
-                "ec2:DescribeVpcs",
-                "ec2:DescribeSubnets"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
-```
+These policies grant an IAM user full access to Amazon WorkDocs resources, AWS Directory Service operations, and the Amazon EC2 operations that Amazon WorkDocs needs in order to work properly\.
 
 You don't need to allow minimum console permissions for users that are making calls only to the AWS CLI or the AWS API\. Instead, allow access to only the actions that match the API operation that you're trying to perform\.
 
@@ -61,7 +46,7 @@ This example shows how you might create a policy that allows IAM users to view t
             "Action": [
                 "iam:GetUserPolicy",
                 "iam:ListGroupsForUser",
-                  "iam:ListAttachedUserPolicies",
+                "iam:ListAttachedUserPolicies",
                 "iam:ListUserPolicies",
                 "iam:GetUser"
             ],

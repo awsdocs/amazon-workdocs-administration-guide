@@ -4,7 +4,11 @@ You can change existing user information and settings by editing users\.
 
 **To edit users**
 
-1. From the admin control panel, under **Manage Users**, choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the user's name\.
+1. Sign in to Amazon WorkDocs using your administrator credentials\.
+
+1. Under **My Account**, choose **Open admin control panel**\.
+
+1. Under **Manage Users**, choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the user's name\.
 
 1. In the **Edit User** dialog box, you can edit the following options:  
 **First Name** \(Cloud Directory only\)  

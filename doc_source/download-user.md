@@ -4,7 +4,11 @@ To download a list of users from the **Admin control panel**, you must install A
 
 **To download a list of users**
 
-1. From the admin control panel, under **Manage Users**, choose **Download user**\.
+1. Sign in to Amazon WorkDocs using your administrator credentials\.
+
+1. Under **My Account**, choose **Open admin control panel**\.
+
+1. Under **Manage Users**, choose **Download user**\.
 
 1. For **Download user**, choose one of the following options to export a list of users as a `.json` file to your desktop:
    + All users

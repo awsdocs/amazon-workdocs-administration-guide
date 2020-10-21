@@ -4,7 +4,11 @@ You can disable a user's access by changing their status to **Inactive**\.
 
 **To change user status to **Inactive****
 
-1. From the admin control panel, under **Manage Users**, choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the user's name\.
+1. Sign in to Amazon WorkDocs using your administrator credentials\.
+
+1. Under **My Account**, choose **Open admin control panel**\.
+
+1. Under **Manage Users**, choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the user's name\.
 
 1. Choose **Inactive**, and choose **Save Changes**
 

@@ -37,6 +37,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Enabling multi-factor authentication](connect_mfa.md)
    + [Promoting a user to administrator](manage_set_admin.md)
 + [Managing site settings](manage-sites.md)
++ [Deploying Amazon WorkDocs Drive to multiple computers](mass-deploy-drive.md)
 + [Inviting and managing Amazon WorkDocs users](users.md)
    + [User roles overview](users_ovw.md)
    + [Inviting new users](invite_user.md)
@@ -57,4 +58,4 @@ Amazon's trademarks and trade dress may not be used in
 + [Troubleshooting Amazon WorkDocs Issues](troubleshooting.md)
 + [Managing Amazon WorkDocs for Amazon Business](workdocs-amazon-business-admin.md)
 + [Document history](document_history.md)
-+ [AWS Glossary](glossary.md)
++ [AWS glossary](glossary.md)

@@ -4,7 +4,11 @@ Invite new users to join your directory from the admin control panel\. You can a
 
 **To invite new users**
 
-1. In the admin control panel, under **Manage Users**, choose **Invite Users**\.
+1. Sign in to Amazon WorkDocs using your administrator credentials\.
+
+1. Under **My Account**, choose **Open admin control panel**\.
+
+1. Under **Manage Users**, choose **Invite Users**\.
 
 1. In the **Invite Users** dialog box, for **Who would you like to invite?**, type the invitee's email address, and choose **Send**\. Repeat this step for each invitation\.
 
