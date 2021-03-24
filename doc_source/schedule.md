@@ -1,6 +1,8 @@
 # Step 3: Scheduling a migration<a name="schedule"></a>
 
-After you complete steps 1 and 2, use the Amazon WorkDocs Migration Service to schedule the migration\. When you schedule the migration, your Amazon WorkDocs user account **Storage** setting is automatically changed to **Unlimited**\.
+After you complete steps 1 and 2, use the Amazon WorkDocs Migration Service to schedule the migration\. The Migration Service can take up to a week to process your migration request and send you an email saying that you can begin your migration\. If you start the migration before you receive the email, the management console displays a message telling you to wait\.
+
+When you schedule the migration, your Amazon WorkDocs user account **Storage** setting automatically changes to **Unlimited**\.
 
 **Note**  
 Migrating files that exceed your Amazon WorkDocs storage limit can result in additional costs\. For more information, see [Amazon WorkDocs Pricing](http://aws.amazon.com/workdocs/pricing/)\.

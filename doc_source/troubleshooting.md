@@ -33,7 +33,7 @@ Transfer document ownership to another user in the admin control panel\. For mor
 
 ## Need to deploy Amazon WorkDocs Drive or Amazon WorkDocs Companion to multiple users<a name="deploy-multiple"></a>
 
-Deploy to multiple users in an enterprise by using group policy\. For more information, see [Identity and access management for Amazon WorkDocs](security-iam.md)\.
+Deploy to multiple users in an enterprise by using group policy\. For more information, see [Identity and access management for Amazon WorkDocs](security-iam.md)\. For specific information about deploying Amazon WorkDocs Drive to multiple users, see [Deploying Amazon WorkDocs Drive to multiple computers](mass-deploy-drive.md)\.
 
 ## Online editing isn't working<a name="online-editing"></a>
 

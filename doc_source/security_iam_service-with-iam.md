@@ -1,6 +1,6 @@
 # How Amazon WorkDocs works with IAM<a name="security_iam_service-with-iam"></a>
 
-Before you use IAM to manage access to Amazon WorkDocs, you should understand what IAM features are available to use with Amazon WorkDocs\. To get a high\-level view of how Amazon WorkDocs and other AWS services work with IAM, see [AWS services that work with IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_aws-services-that-work-with-iam.html) in the *IAM User Guide*\.
+Before you use IAM to manage access to Amazon WorkDocs, you need to understand which IAM features are available to use with Amazon WorkDocs\. To get a high\-level view of how Amazon WorkDocs and other AWS services work with IAM, see [AWS services that work with IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_aws-services-that-work-with-iam.html) in the *IAM User Guide*\.
 
 **Topics**
 + [Amazon WorkDocs identity\-based policies](#security_iam_service-with-iam-id-based-policies)
@@ -14,7 +14,11 @@ With IAM identity\-based policies, you can specify allowed or denied actions\. A
 
 ### Actions<a name="security_iam_service-with-iam-id-based-policies-actions"></a>
 
-The `Action` element of an IAM identity\-based policy describes the specific action or actions that will be allowed or denied by the policy\. Policy actions usually have the same name as the associated AWS API operation\. The action is used in a policy to grant permissions to perform the associated operation\. 
+Administrators can use AWS JSON policies to specify who has access to what\. That is, which **principal** can perform **actions** on what **resources**, and under what **conditions**\.
+
+The `Action` element of a JSON policy describes the actions that you can use to allow or deny access in a policy\. Policy actions usually have the same name as the associated AWS API operation\. There are some exceptions, such as *permission\-only actions* that don't have a matching API operation\. There are also some operations that require multiple actions in a policy\. These additional actions are called *dependent actions*\.
+
+Include actions in a policy to grant permissions to perform the associated operation\.
 
 Policy actions in Amazon WorkDocs use the following prefix before the action: `workdocs:`\. For example, to grant someone permission to run the Amazon WorkDocs `DescribeUsers` API operation, you include the `workdocs:DescribeUsers` action in their policy\. Policy statements must include either an `Action` or `NotAction` element\. Amazon WorkDocs defines its own set of actions that describe tasks that you can perform with this service\.
 
@@ -33,6 +37,16 @@ You can specify multiple actions using wildcards \(\*\)\. For example, to specif
 ```
 
 
+
+**Note**  
+To ensure backward compatibility, include the `zocalo` action\. For example:  
+
+```
+"Action": [
+"zocalo:*",
+"workdocs:*"
+],
+```
 
 To see a list of Amazon WorkDocs actions, see [Actions defined by Amazon WorkDocs](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkdocs.html#amazonworkdocs-actions-as-permissions) in the *IAM User Guide*\.
 

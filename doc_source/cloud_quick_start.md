@@ -1,6 +1,6 @@
 # Getting started with Quick Start<a name="cloud_quick_start"></a>
 
-In this tutorial, you'll learn how to set up a new Amazon WorkDocs site and create a Simple AD directory with **Quick Start**\. The **Quick Start** option is available only if you have never launched an Amazon WorkDocs site before\.
+The steps in the following sections explain how to set up a new Amazon WorkDocs site and create a Simple AD directory with **Quick Start**\. You can only use the **Quick Start** option if you have never launched an Amazon WorkDocs site before\.
 
 **Note**  
 If you need more control over the directory configuration, such as specifying your own directory domain name or using an existing virtual private cloud \(VPC\) with the directory, use the **Standard Setup** option\. For more information, see [Getting started with Simple AD: Standard Setup](cloud_standard_setup.md)\.
@@ -14,7 +14,7 @@ If you need more control over the directory configuration, such as specifying yo
 ## Before you begin<a name="quick-setup-prereqs"></a>
 + You must have an AWS account to create or administer an Amazon WorkDocs site\. Users do not need an AWS account to connect to and use Amazon WorkDocs\. For more information, see [Prerequisites for Amazon WorkDocs](prereqs.md)\.
 + When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
-+ If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a Microsoft AD Directory to meet compliance requirements\. Follow the instructions on [Getting started with AWS Managed Microsoft AD](connect_directory_microsoft.md) instead\.
++ If you belong to a compliance program such as PCI, FedRAMP, or DoD, you must set up a Microsoft AD Directory to meet compliance requirements\. Follow the instructions on [Getting started with AWS Managed Microsoft AD](connect_directory_microsoft.md) instead\.
 
 ## Step 1: Launch the Amazon WorkDocs site<a name="quick-setup-launch-site"></a>
 
@@ -34,7 +34,7 @@ Using Quick Start, you can launch your first Amazon WorkDocs site in minutes\.
 
 Follow the steps below to create an access point and set an administrator\.
 
-**To create access point and set administrator**
+**To create access point and set an administrator**
 
 1. From the **WorkDocs Quick Start** page, enter the following values for **Access Point**:  
 **Region**  
@@ -58,7 +58,11 @@ Quick Start completes the following tasks on your behalf:
 + Creates a virtual private cloud \(VPC\)\.
 + Sets up a Simple AD directory in the VPC that is used to store user and Amazon WorkDocs site information\.
 + Creates a directory administrator account\. An email is sent to the administrator with instructions to complete registration\. Use this account to manage the directory\.
-+ Creates the specified user accounts, adds them to the directory, and sends invitation emails\.
++ Creates the specified user accounts and adds them to the directory\.
++ If you left the auto activate feature on, Quick Start activates all the users in the directory\. 
+
+**Note**  
+Quick Start doesn't notify users about the new site\. You need to communicate the URL to them, and let them know that they don't need a separate login to use the site\. 
 
 ## Step 3: Complete admin control panel setup<a name="quick-setup-admin-panel"></a>
 
@@ -68,7 +72,7 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. In the administrator registration email, use the link to sign in to Amazon WorkDocs\.
 
-1. Under **My account**, choose **Open admin control panel**\.
+1. Under **Admin**, choose **Open admin control panel**\.
 
 1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing site settings](manage-sites.md)\.
 

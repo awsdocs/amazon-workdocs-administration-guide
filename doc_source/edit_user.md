@@ -1,12 +1,12 @@
 # Editing users<a name="edit_user"></a>
 
-You can change existing user information and settings by editing users\.
+You can change existing user information and settings\.
 
 **To edit users**
 
-1. Sign in to Amazon WorkDocs using your administrator credentials\.
+1. Sign into Amazon WorkDocs as an administrator\.
 
-1. Under **My Account**, choose **Open admin control panel**\.
+1. Under **Admin**, choose **Open admin control panel**\.
 
 1. Under **Manage Users**, choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the user's name\.
 
@@ -16,9 +16,9 @@ The user's first name\.
 **Last Name** \(Cloud Directory only\)  
 The user's last name\.  
 **Status**  
-Specifies if the user is **Active** or **Inactive**\. For more information, see [Disabling users](inactive-user.md)\.  
+Specifies whether the user is **Active** or **Inactive**\. For more information, see [Disabling users](inactive-user.md)\.  
 **Role**  
-Specifies whether the user is a user or administrator\. You can also upgrade or downgrade a user that has an Amazon WorkSpaces WorkSpace assigned to them\. For more information, see [User roles overview](users_ovw.md)\.  
+Specifies whether someone is a user or administrator\. You can also upgrade or downgrade users that have an Amazon WorkSpaces WorkSpace assigned to them\. For more information, see [User roles overview](users_ovw.md)\.  
 **Storage**  
 Specifies the storage limit for an existing user\.
 

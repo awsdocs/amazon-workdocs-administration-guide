@@ -1,16 +1,16 @@
 # Getting started with Simple AD: Standard Setup<a name="cloud_standard_setup"></a>
 
-In this tutorial, you’ll learn how to set up an Amazon WorkDocs site using **Standard Setup** to create a Simple AD directory in the cloud\.
+The steps in this section explain how to set up an Amazon WorkDocs site by using **Standard Setup** to create a Simple AD directory in the cloud\.
 
 **Topics**
 + [Before you begin](#standard-setup-prereqs)
 + [Step 1: Launch the Amazon WorkDocs site](#standard-setup-site)
-+ [Step 2: Create directory and set administrator](#standard-setup-directory)
++ [Step 2: Create a directory and set an administrator](#standard-setup-directory)
 + [Step 3: Complete admin control panel setup](#standard-setup-admin-panel)
 
 ## Before you begin<a name="standard-setup-prereqs"></a>
 + You must meet the prerequisites identified in [Simple AD Prerequisites](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/cloud_prereq.html) in the *AWS Directory Service Administration Guide*\.
-+ If you are part of a compliance program, such as PCI, FedRAMP, or DoD, you must set up a AWS Managed Microsoft AD Directory to meet compliance requirements\. For more information, see [Getting started with AWS Managed Microsoft AD](connect_directory_microsoft.md)\.
++ If you belong to a compliance program such as PCI, FedRAMP, or DoD, you must set up an AWS Managed Microsoft AD Directory to meet compliance requirements\. For more information, see [Getting started with AWS Managed Microsoft AD](connect_directory_microsoft.md)\.
 + When you launch a new Amazon WorkDocs site, you must specify profile information for the administrator, including first and last name and an email address\. 
 
 ## Step 1: Launch the Amazon WorkDocs site<a name="standard-setup-site"></a>
@@ -27,7 +27,7 @@ Follow the steps below to launch your Amazon WorkDocs site using **Standard Setu
 
 1. On the **Get Started with WorkDocs** page, next to **Standard Setup**, choose **Launch**\.
 
-## Step 2: Create directory and set administrator<a name="standard-setup-directory"></a>
+## Step 2: Create a directory and set an administrator<a name="standard-setup-directory"></a>
 
 Follow the steps below to create a Simple AD directory and set an administrator\.
 
@@ -59,7 +59,7 @@ The last name of the directory administrator\.
 **VPC**  
 The VPC that the directory is created in\.  
 **Subnets**  
-The subnets in the VPC that the directory is created in\. The two subnets must be in different Availability Zones\. If you choose **No Preference**, two different subnets are randomly selected\.
+The subnets in the VPC that the directory is created in\. The two subnets must be in different Availability Zones\. If you choose **No Preference**, WorkDocs randomly selects two different subnets\.
 
 1. Review the directory information and make any necessary changes\. When the information is correct, choose **Create Directory**\.
 
@@ -73,7 +73,7 @@ After you receive the administrator registration email, connect to the Amazon Wo
 
 1. In the administrator registration email, use the link to sign in to Amazon WorkDocs\.
 
-1. Under **My account**, choose **Open admin control panel**\.
+1. Under **Admin**, choose **Open admin control panel**\.
 
 1. Change settings for preferred language, storage, security, and recovery bin\. For more information, see [Managing site settings](manage-sites.md)\.
 

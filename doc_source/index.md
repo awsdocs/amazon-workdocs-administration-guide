@@ -1,7 +1,7 @@
 # Amazon WorkDocs Administration Guide
 
 -----
-*****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy;  Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -40,11 +40,14 @@ Amazon's trademarks and trade dress may not be used in
 + [Deploying Amazon WorkDocs Drive to multiple computers](mass-deploy-drive.md)
 + [Inviting and managing Amazon WorkDocs users](users.md)
    + [User roles overview](users_ovw.md)
+   + [Starting the admin control panel](start-console.md)
+   + [Turning off Auto activation](auto-provision.md)
+   + [Controlling user invitations with Auto activation enabled](control-invites.md)
    + [Inviting new users](invite_user.md)
    + [Editing users](edit_user.md)
    + [Disabling users](inactive-user.md)
    + [Transferring document ownership](transfer-docs.md)
-   + [Downloading user list](download-user.md)
+   + [Downloading user lists](download-user.md)
 + [Sharing and collaboration](share_collab.md)
    + [Sharing](sharing.md)
    + [Permissions](permissions.md)
@@ -55,6 +58,11 @@ Amazon's trademarks and trade dress may not be used in
    + [Step 3: Scheduling a migration](schedule.md)
    + [Step 4: Tracking a migration](track.md)
    + [Step 5: Cleaning up resources](cleanup.md)
++ [Backing up folders with Amazon WorkDocs Backup](admin-backup.md)
+   + [Mass deploying Amazon WorkDocs Backup with Amazon WorkDocs Companion](mass-deploy.md)
+      + [Deploying Amazon WorkDocs Companion on Apple devices](deploy-on-apple.md)
+   + [Updating Amazon WorkDocs Backup settings](update-wd-backup.md)
+   + [Messaging Amazon WorkDocs Backup users](messaging-wd-backup.md)
 + [Troubleshooting Amazon WorkDocs Issues](troubleshooting.md)
 + [Managing Amazon WorkDocs for Amazon Business](workdocs-amazon-business-admin.md)
 + [Document history](document_history.md)
