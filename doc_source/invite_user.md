@@ -1,6 +1,6 @@
 # Inviting new users<a name="invite_user"></a>
 
-You can invite new users to join a directory\. You can also enable existing users to invite new users\. For more information, see [Security – invite settings](manage-sites.md#invite-settings)\.
+You can invite new users to join a directory\. You can also enable existing users to invite new users\. For more information, see [Security – invitation settings](manage-sites.md#invitation-settings)\.
 
 **To invite new users**
 

@@ -1,6 +1,6 @@
 # Inviting and managing Amazon WorkDocs users<a name="users"></a>
 
-By default, when you attach a directory during site provisioning, the Auto activation feature in Amazon WorkDocs adds all the users in that directory to the new site as *managed users*\. In WorkDocs, managed users don't need to log in to a site with separate credentials, they can share and collaborate on files, and they automatically have 1 TB of storage\. However, you can turn Auto activation off when you only want to add some of the users in a directory, and steps in the next sections explain how to do that\.
+By default, when you attach a directory during site creation, the Auto activation feature in Amazon WorkDocs adds all the users in that directory to the new site as *managed users*\. In WorkDocs, managed users don't need to log in to a site with separate credentials, they can share and collaborate on files, and they automatically have 1 TB of storage\. However, you can turn Auto activation off when you only want to add some of the users in a directory, and steps in the next sections explain how to do that\.
 
 In addition, you can invite, enable, or disable users, and change user roles and settings\. You can also promote a user to an administrator\. For more information about promoting users, see [Promoting a user to administrator](manage_set_admin.md)\.
 

@@ -7,18 +7,18 @@ To ensure backward compatibility, include the `zocalo` action in your policies\.
 
 ```
 {
-"Version": "2012-10-17",
-"Statement": [
-{
-"Sid": "VisualEditor0",
-"Effect": "Deny",
-"Action": [
-"zocalo:*",
-"workdocs:*"
-],
-"Resource": "*"
-}
-]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Deny",
+            "Action": [
+            "zocalo:*",
+            "workdocs:*"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
 ```
 

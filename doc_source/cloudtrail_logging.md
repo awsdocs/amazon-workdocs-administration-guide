@@ -1,8 +1,12 @@
-# Logging Amazon WorkDocs API calls using AWS CloudTrail<a name="cloudtrail_logging"></a>
+# Using AWS CloudTrail to log Amazon WorkDocs API calls<a name="cloudtrail_logging"></a>
 
-Amazon WorkDocs is integrated with AWS CloudTrail, a service that provides a record of actions taken by a user, role, or an AWS service in Amazon WorkDocs\. CloudTrail captures all API calls for Amazon WorkDocs as events, including calls from the Amazon WorkDocs console and from code calls to the Amazon WorkDocs APIs\. If you create a trail, you can enable continuous delivery of CloudTrail events to an Amazon S3 bucket, including events for Amazon WorkDocs\. If you don't configure a trail, you can still view the most recent events in the CloudTrail console in **Event history**\. Using the information collected by CloudTrail, you can determine the request that was made to Amazon WorkDocs, the IP address from which the request was made, who made the request, when it was made, and additional details\. 
+You can use AWS CloudTrail; to log Amazon WorkDocs API calls\. CloudTrail provides a record of actions taken by a user, role, or an AWS service in Amazon WorkDocs\. CloudTrail captures all API calls for Amazon WorkDocs as events, including calls from the Amazon WorkDocs console and from code calls to the Amazon WorkDocs APIs\.
 
-To learn more about CloudTrail, see the [AWS CloudTrail User Guide](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/)\.
+If you create a trail, you can enable continuous delivery of CloudTrail events to an Amazon S3 bucket, including events for Amazon WorkDocs\. If you don't create a trail, you can still view the most recent events in the CloudTrail console in **Event history**\.
+
+The information collected by CloudTrail includes requests, the IP addresses from which the requests were made, the users who made the requests, and the request dates\.
+
+For more information about CloudTrail, see the [AWS CloudTrail User Guide](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/)\.
 
 ## Amazon WorkDocs information in CloudTrail<a name="service-name-info-in-cloudtrail"></a>
 
@@ -73,8 +77,7 @@ The following example shows two CloudTrail log entries for Amazon WorkDocs: the 
         "userName" : "user_name"
       },
       "eventTime" : "event_time",
-      "eventSource" : "workdocs.amazonaws.com",
-      "eventName" : "LogoutUser",
+      "eventSource" : "workdocs.amazonaws.com",      
       "awsRegion" : "region",
       "sourceIPAddress" : "ip_address",
       "userAgent" : "user_agent",

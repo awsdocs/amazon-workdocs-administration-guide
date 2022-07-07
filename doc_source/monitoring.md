@@ -4,4 +4,4 @@ Amazon WorkDocs site administrators can view and export the activity feed for an
 
 **Topics**
 + [Site\-wide activity feed](site-activity.md)
-+ [Logging Amazon WorkDocs API calls using AWS CloudTrail](cloudtrail_logging.md)
++ [Using AWS CloudTrail to log Amazon WorkDocs API calls](cloudtrail_logging.md)

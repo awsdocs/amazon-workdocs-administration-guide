@@ -18,7 +18,7 @@ The user's last name\.
 **Status**  
 Specifies whether the user is **Active** or **Inactive**\. For more information, see [Disabling users](inactive-user.md)\.  
 **Role**  
-Specifies whether someone is a user or administrator\. You can also upgrade or downgrade users that have an Workspaces WorkSpace assigned to them\. For more information, see [User roles overview](users_ovw.md)\.  
+Specifies whether someone is a user or administrator\. You can also upgrade or downgrade users that have an WorkSpaces WorkSpace assigned to them\. For more information, see [User roles overview](users_ovw.md)\.  
 **Storage**  
 Specifies the storage limit for an existing user\.
 

@@ -8,8 +8,14 @@ Use the Amazon WorkDocs console to promote a user to administrator\. Remember, y
 
 1. Open the Amazon WorkDocs console at [https://console\.aws\.amazon\.com/zocalo/](https://console.aws.amazon.com/zocalo/)\.
 
-1. In the **Manage Your WorkDocs Sites** page, select the desired directory and choose **Actions** and **Set an Administrator**\.
+1. In the navigation pane, choose **My sites**\. 
 
-1. In the **Set WorkDocs Administrator** page, enter the user name of the person that you want to promote and choose **Set Administrator**\.
+   The **Manage your WorkDocs Sites** page appears\.
 
-You can also use the Amazon WorkDocs administration dashboard to demote an administrator\. For more information, see [Editing users](edit_user.md)\.
+1. Select the button next to the desired site, choose **Actions**, then choose **Set an administrator**\.
+
+   The **Set WorkDocs administrator** dialog box appears\.
+
+1. In the **Username** box, enter the user name of the person that you want to promote, then choose **Set administrator**\.
+
+You can also use the Amazon WorkDocs site admin control panel to demote an administrator\. For more information, see [Editing users](edit_user.md)\.

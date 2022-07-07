@@ -10,7 +10,7 @@ Users can choose **Share a link** to quickly copy and share hyperlinks for Amazo
 
 Recipients with viewing permissions can only view a file\. Commenting permissions enable users to comment and perform update or delete operations, such as uploading a new file or deleting an existing file\.
 
-By default, all managed users can create public links\. To change this setting, update your **Security** settings from your admin control panel\. For more information, see [Managing site settings](manage-sites.md)\. 
+By default, all managed users can create public links\. To change this setting, update your **Security** settings from your admin control panel\. For more information, see [Managing Amazon WorkDocs from the site admin control panel](manage-sites.md)\. 
 
 ## Share by invite<a name="share-invite"></a>
 
@@ -24,4 +24,4 @@ External sharing allows managed users of an Amazon WorkDocs site to share files 
 
 File owners can modify sharing permissions or remove access for the external user from a file or folder at any time\. External sharing for the site must be enabled by the site administrator in order for managed users to share content with external users\. For** Guest users** to become contributors or co\-owners, they must be upgraded to the **User** level by a site administrator\. For more information, see [User roles overview](users_ovw.md)\.
 
-By default, external sharing is turned on and all users can invite external users\. To change this setting, update your **Security** settings from your admin control panel\. For more information, see [Managing site settings](manage-sites.md)\. 
+By default, external sharing is turned on and all users can invite external users\. To change this setting, update your **Security** settings from your admin control panel\. For more information, see [Managing Amazon WorkDocs from the site admin control panel](manage-sites.md)\. 

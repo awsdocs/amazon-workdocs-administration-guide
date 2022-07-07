@@ -18,7 +18,7 @@ To download a list of users from the **Admin control panel**, you must install A
    + Power user
    + Admin
 
-1. WorkDocs saves the fileto one of the following locations:
+1. WorkDocs saves the file to one of the following locations:
    + **Windows** – `Downloads/WorkDocsDownloads`\. folder
    + **macOS** – `hard drive/users/username/WorkDocsDownloads/folder`
 **Note**  

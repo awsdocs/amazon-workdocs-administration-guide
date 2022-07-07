@@ -1,6 +1,6 @@
 # Permissions<a name="permissions"></a>
 
-Amazon WorkDocs controls access to folders and files through the use of permissions\. Permissions are applied based on the role of the user\.
+Amazon WorkDocs uses permissions to control access to folders and files\. Permissions are applied based on user roles\.
 
 **Topics**
 + [Roles](#roles)
@@ -10,22 +10,22 @@ Amazon WorkDocs controls access to folders and files through the use of permissi
 
 ## Roles<a name="roles"></a>
 
-Both folder and file permissions are granted based on user roles\. The following are the roles defined by Amazon WorkDocs that apply to folders:
-+ Folder owner – The owner of the folder or file\.
-+ Folder co\-owner – A user or group that the owner designates as the co\-owner of the folder or file\.
-+ Folder contributor – Someone who the folder has been shared with, without limited access to the folder\.
-+ Folder viewer – Someone who a folder has been shared with, but has been given limited access \(view only\) to the folder\.
+Folder and file permissions are granted based on user roles\. Amazon WorkDocs defines the following roles for folders:
++ Folder owner – The owner of a folder or file\.
++ Folder co\-owner – A user or group that the owner designates as the co\-owner of a folder or file\.
++ Folder contributor – Someone with unlimited access to a folder\.
++ Folder viewer – Someone with limited access \(read\-only permissions\) to a folder\.
 
 The following roles apply to files:
-+ Owner – The owner of the file\.
++ Owner – The owner of a file\.
 + Co\-Owner – A user or group that the owner designates as the co\-owner of the file\.
-+ Contributor – Someone who has been asked for feedback on file\.
-+ Viewer – Someone who a file has been shared with, but has been given limited access \(view only\) to the file\.
-+ Anonymous viewer – A non\-registered user outside of the organization who can view a file that has been shared via an external viewing link\. Unless otherwise indicated, an anonymous viewer has the same permissions as a viewer\.
++ Contributor – Someone allowed to give feedback on file\.
++ Viewer – Someone with limited access \(read\-only permissions\) to the file\.
++ Anonymous viewer – A non\-registered user outside of the organization who can view a file that has been shared using an external viewing link\. Unless otherwise indicated, an anonymous viewer has the same permissions as a viewer\.
 
 ## Shared folder permissions<a name="folder_perms"></a>
 
-The following are the permissions defined by Amazon WorkDocs for shared folders:
+Amazon WorkDocs provides the following permissions for shared folders\. As a reminder, permissions applied to a folder also apply to the files in that folder\.
 + View – View the contents of a shared folder\.
 + View sub\-folder – View a sub\-folder\.
 + View shares – View the other users a folder is shared with\.
@@ -53,15 +53,15 @@ The following are the permissions defined by Amazon WorkDocs for shared folders:
 
 ## File permissions<a name="doc_perms"></a>
 
-The following are the permissions defined by Amazon WorkDocs for files that are not in a shared folder:
+Amazon WorkDocs provides the following permissions for files that do not reside in a shared folder:
 + View – View a file\.
 + Delete – Delete a file\.
-+ Annotate – Can add feedback to a file\.
++ Annotate – Add feedback to a file\.
 + View Shares – View the other users that a file is shared with\.
 + View Annotations – View feedback from other users\.
 + View Activity – View the activity history of a file\.
 + View Versions – View previous versions of a file\.
-+ Download – Download a file\. This is the default permission\. The ability to download shared files can be allowed or denied in the file properties\. 
++ Download – Download a file\. This is the default permission\. You can use file properties to allow or deny the ability to download shared files\. 
 + Prevent Download – Prevent a file from being downloaded\.
 + Upload – Upload new versions of a file\.
 + Share – Share a file with other users\.
@@ -87,11 +87,11 @@ The following are the permissions defined by Amazon WorkDocs for files that are 
 
 ## Shared file permissions<a name="shared_document_perms"></a>
 
-The following are the permissions defined by Amazon WorkDocs for files in a shared folder:
+Amazon WorkDocs provides the following permissions for files in a shared folder:
 + View – View a file in a shared folder\.
 + View Shares – View the other users that a file is shared with\.
 + Download – Download a file\.
-+ Annotate – Can add feedback to a file\.
++ Annotate – Add feedback to a file\.
 + View Annotations – View feedback from other users\.
 + View Activity – View the activity history of a file\.
 + View Versions – View previous versions of a file\.
@@ -115,7 +115,7 @@ The following are the permissions defined by Amazon WorkDocs for files in a shar
 | View Activity | X | X | X |  |  | 
 | View Versions | X | X | X |  |  | 
 | Upload | X | X | X |  |  | 
-| Delete | X | X | X |  |  | 
+| Delete | X | X |  |  |  | 
 | Rename | X | X |  |  |  | 
 | Prevent Download | X | X |  |  |  | 
 | Share | X | X |  |  |  | 

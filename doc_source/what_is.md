@@ -8,13 +8,12 @@ For more information, see [Amazon WorkDocs](https://aws.amazon.com/workdocs/)\.
 
 ## Accessing Amazon WorkDocs<a name="accessing"></a>
 
-Administrators use the [Amazon WorkDocs console](https://console.aws.amazon.com/zocalo/) to create and deactivate Amazon WorkDocs sites\. With the admin control panel, they can manage users, storage, and security settings\. For more information, see [Managing site settings](manage-sites.md) and [Inviting and managing Amazon WorkDocs users](users.md)\.
+Administrators use the [Amazon WorkDocs console](https://console.aws.amazon.com/zocalo/) to create and deactivate Amazon WorkDocs sites\. With the admin control panel, they can manage users, storage, and security settings\. For more information, see [Managing Amazon WorkDocs from the site admin control panel](manage-sites.md) and [Inviting and managing Amazon WorkDocs users](users.md)\.
 
 Non\-administrative users use the client applications to access their files\. They never use the Amazon WorkDocs console or the administration dashboard\. Amazon WorkDocs offers several different client applications and utilities:
 + A web application used for document management and reviewing\.
 + Native apps for mobile devices used for document review\.
-+ A document synchronization app used to synchronize a folder on your macOS or Windows desktop with your Amazon WorkDocs files\.
-+ Web clipper browser extensions for several popular web browsers that allow you to save an image of a webpage to your Amazon WorkDocs files\.
++ Amazon WorkDocs Drive, an app that synchronizes a folder on your macOS or Windows desktop with your Amazon WorkDocs files\.
 
 For more information about how users can download Amazon WorkDocs clients and edit their files, and which file types are supported, see:
 + [Getting started with Amazon WorkDocs](https://docs.aws.amazon.com/workdocs/latest/userguide/getting_started.html)
@@ -27,13 +26,4 @@ With Amazon WorkDocs, there are no upfront fees or commitments\. You pay only fo
 
 ## How to get started<a name="how-to-start"></a>
 
-To get started with Amazon WorkDocs, try one of the following tutorials:
-+ [Getting started with Quick Start](cloud_quick_start.md)
-+ [Getting started with Simple AD: Standard Setup](cloud_standard_setup.md)
-+ [Getting started with an existing directory](existing-dir-setup.md)
-+ [Getting started with AD Connector ](connect_directory_connector.md)
-+ [Getting started with AWS Managed Microsoft AD](connect_directory_microsoft.md)
-
-If you have an Workspaces administrator account with a directory that is enabled for Amazon WorkDocs, you can sign in to your Amazon WorkDocs site and finish setup from the **Admin control panel**\. For more information, see [Step 3: Complete admin control panel setup](cloud_standard_setup.md#standard-setup-admin-panel)\.
-
-For more information about using Workspaces to get started with Amazon WorkDocs, see [Get started with Workspaces Quick Setup](https://docs.aws.amazon.com/workspaces/latest/adminguide/getting-started.html) in the *Amazon Workspaces Administration Guide*\. For information about using an Amazon WorkDocs client in Workspaces or an Amazon EC2 instance, see [Endpoints for Amazon S3](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-endpoints-s3.html) in the *Amazon VPC User Guide*\.
+To get started with Amazon WorkDocs, see [Creating an Amazon WorkDocs site](cloud_quick_start.md)\.
