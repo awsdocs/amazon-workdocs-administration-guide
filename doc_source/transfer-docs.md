@@ -7,7 +7,9 @@ You can't undo this action\.
 
 **To transfer document ownership**
 
-1. Sign into Amazon WorkDocs as an administrator\.
+1. Choose the profile icon in the upper\-right corner of the WorkDocs client\.
+
+   ![\[The default profile image in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
 
 1. Under **Admin**, choose **Open admin control panel**\.
 

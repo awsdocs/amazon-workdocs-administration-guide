@@ -2,7 +2,7 @@
 
 Amazon WorkDocs defines the following user roles\. You can change users' roles by editing their user profiles\. For more information, see [Editing users](edit_user.md)\.
 + **Admin**: A paid user who has administrative permissions for the entire site, including user management and site setting configuration\. For more information about how to promote a user to an administrator, see [Promoting a user to administrator](manage_set_admin.md)\.
-+ **Power user**: A paid user who with a special set of permissions from the administrator\. For more information about how to set permissions for a Power user, see [Security – public share settings](manage-sites.md#external_share_settings) and [Security – external invitations](manage-sites.md#ext-invite-settings)\.
++ **Power user**: A paid user who has a special set of permissions from the administrator\. For more information about how to set permissions for a Power user, see [Security – public share settings](manage-sites.md#external_share_settings) and [Security – external invitations](manage-sites.md#ext-invite-settings)\.
 + **User**: A paid user who can save files and collaborate with others in an Amazon WorkDocs site\.
 + **Guest user**: An unpaid user who can only view files\. You can upgrade Guest users to the User, Power user, or Administrator roles\.
 **Note**  

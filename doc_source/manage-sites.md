@@ -62,16 +62,13 @@ If you enter a CIDR value that blocks you from using your current IP address to 
 
 ## Security – public share settings<a name="external_share_settings"></a>
 
-In the **Admin control panel**, under **Security**, choose **Who should be allowed to create publicly shareable links?** to specify which users are allowed to send file view links to people outside of the organization\. Choose from the following settings:
+In the **Admin control panel**, under **Security**, choose **Change**\. Under **Who should be allowed to create publicly shareable links**, choose from the following settings:
 
-**No public sharing**  
-Users cannot send view links to anyone outside the organization\.
-
-**All managed users can share publicly **  
-All users can send view links to anyone outside the organization\. 
-
-**Only Power users can share publicly**  
-Only Power users can send view links to people outside the organization\. 
+Under **Choose your setting for shareable links**, select an option:
++ **Users cannot send internal view links\.** – Disables link sharing for all users\.
++ **Users cannot send external view links\.** – Limits link sharing to just site members\. Managed users can create this type of link\.
++ **Users can send external view links to anyone\.** – Managed users can create site\-wide links, but only power users can create public links\. Public links allow access to anyone on the internet\.
++ **Users cannot send external view links to a few specific domains\.** – Managed users can create public links\.
 
 ## Security – invitation settings<a name="invitation-settings"></a>
 

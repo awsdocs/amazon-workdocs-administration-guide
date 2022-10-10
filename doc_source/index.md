@@ -4,13 +4,13 @@
 *****Copyright &copy; Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
-Amazon's trademarks and trade dress may not be used in 
-     connection with any product or service that is not Amazon's, 
-     in any manner that is likely to cause confusion among customers, 
-     or in any manner that disparages or discredits Amazon. All other 
-     trademarks not owned by Amazon are the property of their respective
-     owners, who may or may not be affiliated with, connected to, or 
-     sponsored by Amazon.
+Amazon's trademarks and trade dress may not be used in
+connection with any product or service that is not Amazon's,
+in any manner that is likely to cause confusion among customers,
+or in any manner that disparages or discredits Amazon. All other
+trademarks not owned by Amazon are the property of their respective
+owners, who may or may not be affiliated with, connected to, or
+sponsored by Amazon.
 
 -----
 ## Contents
@@ -22,7 +22,7 @@ Amazon's trademarks and trade dress may not be used in
       + [Amazon WorkDocs identity-based policy examples](security_iam_id-based-policy-examples.md)
       + [Troubleshooting Amazon WorkDocs identity and access](security_iam_troubleshoot.md)
    + [Logging and monitoring in Amazon WorkDocs](monitoring.md)
-      + [Site-wide activity feed](site-activity.md)
+      + [Exporting the site-wide activity feed](site-activity.md)
       + [Using AWS CloudTrail to log Amazon WorkDocs API calls](cloudtrail_logging.md)
    + [Compliance validation for Amazon WorkDocs](compliance.md)
    + [Resilience in Amazon WorkDocs](disaster-recovery-resiliency.md)
@@ -45,6 +45,7 @@ Amazon's trademarks and trade dress may not be used in
    + [User roles overview](users_ovw.md)
    + [Starting the admin control panel](start-console.md)
    + [Turning off Auto activation](auto-provision.md)
+   + [Managing link sharing](shareable-link-perms.md)
    + [Controlling user invitations with Auto activation enabled](control-invites.md)
    + [Inviting new users](invite_user.md)
    + [Editing users](edit_user.md)
@@ -52,11 +53,13 @@ Amazon's trademarks and trade dress may not be used in
    + [Transferring document ownership](transfer-docs.md)
    + [Downloading user lists](download-user.md)
 + [Sharing and collaboration](share_collab.md)
-   + [Sharing](sharing.md)
+   + [Sharing links](sharing-link.md)
+   + [Sharing by invite](share-invite.md)
+   + [External sharing](share-external.md)
    + [Permissions](permissions.md)
    + [Enabling collaborative editing](collab-editing.md)
 + [Migrating files to Amazon WorkDocs](migration.md)
-   + [Step 1: Preparing for migration](prepare.md)
+   + [Step 1: Preparing content for migration](prepare.md)
    + [Step 2: Uploading files to Amazon S3](s3-upload.md)
    + [Step 3: Scheduling a migration](schedule.md)
    + [Step 4: Tracking a migration](track.md)

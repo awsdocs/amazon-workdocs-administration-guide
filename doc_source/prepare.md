@@ -1,6 +1,6 @@
-# Step 1: Preparing for migration<a name="prepare"></a>
+# Step 1: Preparing content for migration<a name="prepare"></a>
 
-**To prepare for migration**
+**To prepare your content for migration**
 
 1. On your Amazon WorkDocs site, under **My Documents**, create a folder that you want to migrate your files and folders to\.
 

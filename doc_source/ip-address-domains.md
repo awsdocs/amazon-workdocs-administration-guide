@@ -1,6 +1,6 @@
 # IP address and domains to add to your allow list<a name="ip-address-domains"></a>
 
-If you implement IP filtering on devices that access Amazon WorkDocs, add the following IP addresses and domains to your allow list\. Doing so enables WorkDocs and WorkDocs Drive to connect to the WorkDocs service\.
+If you implement IP filtering on devices that access Amazon WorkDocs, add the following IP addresses and domains to your allow list\. Doing so enables Amazon WorkDocs and Amazon WorkDocs Drive to connect to the WorkDocs service\.
 + zocalo\.ap\-northeast\-1\.amazonaws\.com
 +  zocalo\.ap\-southeast\-2\.amazonaws\.com
 +  zocalo\.eu\-west\-1\.amazonaws\.com

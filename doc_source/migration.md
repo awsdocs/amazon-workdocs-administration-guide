@@ -18,7 +18,7 @@ If your Amazon WorkDocs site is set up on the same directory as your WorkSpaces 
 Directory structure, file names, and file content are preserved when migrating to Amazon WorkDocs\. File ownership and permissions are not preserved\.
 
 **Topics**
-+ [Step 1: Preparing for migration](prepare.md)
++ [Step 1: Preparing content for migration](prepare.md)
 + [Step 2: Uploading files to Amazon S3](s3-upload.md)
 + [Step 3: Scheduling a migration](schedule.md)
 + [Step 4: Tracking a migration](track.md)

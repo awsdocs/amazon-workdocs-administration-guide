@@ -4,7 +4,9 @@ To download a list of users from the **Admin control panel**, you must install A
 
 **To download a list of users**
 
-1. Sign into Amazon WorkDocs as an administrator\.
+1. Choose the profile icon in the upper\-right corner of the WorkDocs client\.
+
+   ![\[The default profile image in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
 
 1. Under **Admin**, choose **Open admin control panel**\.
 
@@ -19,7 +21,7 @@ To download a list of users from the **Admin control panel**, you must install A
    + Admin
 
 1. WorkDocs saves the file to one of the following locations:
-   + **Windows** – `Downloads/WorkDocsDownloads`\. folder
+   + **Windows** – `Downloads/WorkDocsDownloads`
    + **macOS** – `hard drive/users/username/WorkDocsDownloads/folder`
 **Note**  
 Downloads may take some time\. Also, downloaded files do not land in your `/~users` folder\.

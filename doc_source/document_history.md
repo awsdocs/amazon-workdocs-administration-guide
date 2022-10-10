@@ -4,6 +4,7 @@ The following table describes important changes to the *Amazon WorkDocs Administ
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [New file owner permissions](#document_history) | Administrators can now provide the Delete Version and Recover Version permissions\. The permissions are part of the release of the [DeleteDocumentVersion](https://docs.aws.amazon.com/workdocs/latest/APIReference/API_DeleteDocumentVersion.html) and [RecoverDocumentVersion](https://docs.aws.amazon.com/RecoverDocumentVersion.html) APIs\. | July 29, 2022 | 
 | [Amazon WorkDocs Backup](#document_history) | Removed the Amazon WorkDocs Backup documentation from the Amazon WorkDocs Administration Guide because the component is no longer supported\. | June 24, 2021 | 
 | [Managing Amazon WorkDocs for Amazon Business](#document_history) | Amazon WorkDocs for Amazon Business supports user management by administrators\. For more information, see [Managing Amazon WorkDocs for Amazon Business](https://docs.aws.amazon.com/workdocs/latest/adminguide/workdocs-amazon-business-admin.html) in the Amazon WorkDocs Administration Guide\. | March 26, 2020 | 
 | [Migrating files to Amazon WorkDocs](#document_history) | Amazon WorkDocs administrators can use the Amazon WorkDocs Migration Service to perform a large\-scale migration of multiple files and folders to their Amazon WorkDocs site\. For more information, see [Migrating files to Amazon WorkDocs](https://docs.aws.amazon.com/workdocs/latest/adminguide/migration.html) in the Amazon WorkDocs Administration Guide\. | August 8, 2019 | 

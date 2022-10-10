@@ -1,10 +1,12 @@
 # Turning off Auto activation<a name="auto-provision"></a>
 
-You turn off Auto activation when you don't want to add all the users in a directory to a new site, and when you want to set different permissions and roles for the users that you invite to a new site\. When you turn Auto activation off, you can also decide who should invite new users to the site — current users, power users, or administrators\. These steps explain how to do both tasks\.
+You turn off Auto activation when you don't want to add all the users in a directory to a new site, and when you want to set different permissions and roles for the users that you invite to a new site\. When you turn Auto activation off, you can also decide who has the ability to invite new users to the site — current users, power users, or administrators\. These steps explain how to do both tasks\.
 
 **To turn off Auto activation**
 
-1. Choose the profile icon in the upper\-right corner of your browser\.
+1. Choose the profile icon in the upper\-right corner of the WorkDocs client\.
+
+    ![\[The default profile image in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
 
 1. Under **Admin**, choose **Open admin control panel**\.
 

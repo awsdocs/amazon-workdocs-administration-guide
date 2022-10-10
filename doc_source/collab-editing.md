@@ -1,6 +1,6 @@
 # Enabling collaborative editing<a name="collab-editing"></a>
 
-You can enable collaborative editing options under the **Online Editing Settings** section in your **Admin control panel**\.
+You use the **Online Editing Settings** section in your **Admin control panel** to enable the collaborative editing options\.
 
 **Topics**
 + [Enabling Hancom ThinkFree](#enable-hancom-edit)
