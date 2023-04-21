@@ -1,12 +1,12 @@
 # Inviting new users<a name="invite_user"></a>
 
-You can invite new users to join a directory\. You can also enable existing users to invite new users\. For more information, see [Security – invitation settings](manage-sites.md#invitation-settings)\.
+You can invite new users to join a directory\. You can also enable existing users to invite new users\. For more information, see [Security – Simple ActiveDirectory sites](manage-sites.md#security-settings-simple-ad) and [Security – ActiveDirectory connector sites](manage-sites.md#security-settings-ad-connector) in this guide\.
 
 **To invite new users**
 
 1. Choose the profile icon in the upper\-right corner of the WorkDocs client\.
 
-    ![\[The default profile image in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
+    ![\[The default profile icon in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
 
 1. Under **Admin**, choose **Open admin control panel**\.
 

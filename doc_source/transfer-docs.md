@@ -9,13 +9,13 @@ You can't undo this action\.
 
 1. Choose the profile icon in the upper\-right corner of the WorkDocs client\.
 
-   ![\[The default profile image in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
+   ![\[The default profile icon in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
 
 1. Under **Admin**, choose **Open admin control panel**\.
 
 1. Under **Manage Users**, search for the inactive user\.
 
-1. Choose the pencil icon \(![\[pencil icon\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the inactive user's name\. 
+1. Choose the pencil icon \(![\[A pencil icon.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/pencil_icon.png)\) next to the inactive user's name\. 
 
 1. Select **Transfer Document Ownership** and enter the new owner's email address\.
 

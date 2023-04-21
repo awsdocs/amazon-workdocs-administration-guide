@@ -78,7 +78,7 @@ An [IAM role](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html) is
 
 ### Using temporary credentials with Amazon WorkDocs<a name="security_iam_service-with-iam-roles-tempcreds"></a>
 
-You can use temporary credentials to sign in with federation, assume an IAM role, or to assume a cross\-account role\. You obtain temporary security credentials by calling AWS STS API operations such as [AssumeRole](https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html) or [GetFederationToken](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetFederationToken.html)\. 
+We strongly recommend using temporary credentials to sign in with federation, assume an IAM role, or to assume a cross\-account role\. You obtain temporary security credentials by calling AWS STS API operations such as [AssumeRole](https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRole.html) or [GetFederationToken](https://docs.aws.amazon.com/STS/latest/APIReference/API_GetFederationToken.html)\. 
 
 Amazon WorkDocs supports using temporary credentials\. 
 

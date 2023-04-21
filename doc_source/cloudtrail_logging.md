@@ -31,7 +31,10 @@ For more information, see the [CloudTrail userIdentity element](https://docs.aws
 
 A trail is a configuration that enables delivery of events as log files to an Amazon S3 bucket that you specify\. CloudTrail log files contain one or more log entries\. An event represents a single request from any source and includes information about the requested action, the date and time of the action, request parameters, and so on\. CloudTrail log files are not an ordered stack trace of the public API calls, so they do not appear in any specific order\. 
 
-There are two different types of CloudTrail entries that Amazon WorkDocs generates, those from the control plane and those from the data plane\. The important difference between the two is that the user identity for control plane entries is an IAM user\. The user identity for data plane entries is the Amazon WorkDocs directory user\.
+Amazon WorkDocs generates different types of CloudTrail entries , those from the control plane and those from the data plane\. The important difference between the two is that the user identity for control plane entries is an IAM user\. The user identity for data plane entries is the Amazon WorkDocs directory user\.
+
+**Note**  
+For greater security, create federated users instead of IAM users whenever possible\.
 
 Sensitive information, such as passwords, authentication tokens, file comments, and file contents are redacted in the log entries\.
 

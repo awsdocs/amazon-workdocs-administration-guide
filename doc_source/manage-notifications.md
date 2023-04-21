@@ -1,5 +1,8 @@
 # Managing notifications<a name="manage-notifications"></a>
 
+**Note**  
+For greater security, create federated users instead of IAM users whenever possible\.
+
 Notifications allow IAM users or roles to call the [CreateNotificationSubscription](https://docs.aws.amazon.com/workdocs/latest/APIReference/API_CreateNotificationSubscription.html) API, which you can use to set your own endpoint for processing the SNS messages that WorkDocs sends\. For more information about notifications, see [Setting up notifications for an IAM user or role](https://docs.aws.amazon.com/workdocs/latest/developerguide/manage-notifications.html) in the *Amazon WorkDocs Developer Guide*\.
 
 You can create and delete notifications, and the following steps explain how to do both tasks\.

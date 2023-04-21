@@ -1,6 +1,6 @@
 # Promoting a user to administrator<a name="manage_set_admin"></a>
 
-Use the Amazon WorkDocs console to promote a user to administrator\. Remember, you can only promote activated users\. For more information about activating users, see [Editing users](edit_user.md)\.
+You use the Amazon WorkDocs console to promote a user to administrator\. Follow these steps\.
 
 
 

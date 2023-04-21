@@ -4,7 +4,10 @@
 
 1. On your Amazon WorkDocs site, under **My Documents**, create a folder that you want to migrate your files and folders to\.
 
-1. Confirm that the files to be migrated are less than 5 TB each\. Each file name must be 255 characters or fewer\. Amazon WorkDocs Drive displays only files with a full directory path of 260 characters or fewer\.
+1. Confirm the following:
+   + The source folder contains no more than 100,000 files and subfolders\. Migrations fail if you exceed that limit\.
+   + No individual files exceed 5 TB\.
+   + Each file name contains 255 characters or less\. Amazon WorkDocs Drive only displays files with a full directory path of 260 characters or less\.
 
 **Warning**  
 Attempting to migrate files or folders with names containing the following characters can cause errors and stop the migration process\. If this occurs, choose **Download report** to download a log listing the errors, the files that failed to migrate, and any successfully migrated files\.

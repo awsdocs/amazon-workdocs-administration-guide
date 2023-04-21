@@ -28,7 +28,7 @@ You can apply the following user roles at the individual file level:
 The following permissions apply to user roles for shared folders:
 
 **Note**  
-Permissions applied for a folder also apply to the sub\-bolders and files in that folder\.
+Permissions applied for a folder also apply to the sub\-folders and files in that folder\.
 + **View** – View the contents of a shared folder\.
 + **View sub\-folders** – View a sub\-folder\.
 + **View shares** – View the other users a folder is shared with\.
@@ -54,8 +54,11 @@ The following permissions apply to user roles for files in a shared folder:
 + **Delete** – Delete a file in a shared folder\.
 + **Rename** – Rename files\.
 + **Upload** – Upload new versions of a file\.
-+ **Download** – Download a file\.
-+ **Prevent download** – Prevent a file from being downloaded\. This is the default permission for files in the folder\. 
++ **Download** – Download a file\. This is the default permission\. You can use file properties to allow or deny the ability to download shared files\.
++ **Prevent download** – Prevent a file from being downloaded\. 
+**Note**  
+When you select this option, users with **View** permissions can still download files\. To prevent that, open the shared folder and clear the **Allow Downloads** setting for each of the files that you don't want those users to download\.
+When the owner or co\-owner of an MP4 file disallows downloads for that file, contributors and viewers cannot play it in the Amazon WorkDocs web client\.
 + **Share** – Share a file with other users\.
 + **Revoke sharing** – Revoke the sharing of a file\.
 + **View** – View a file in a shared folder\.
@@ -90,6 +93,8 @@ The following permissions apply to user roles for files that do not reside in a 
 + **Upload** – Upload new versions of a file\.
 + **Download** – Download a file\. This is the default permission\. You can use file properties to allow or deny the ability to download shared files\. 
 + **Prevent download** – Prevent a file from being downloaded\.
+**Note**  
+When the owner or co\-owner of an MP4 file disallows downloads for that file, contributors and viewers cannot play it in the Amazon WorkDocs web client\.
 + **Share** – Share a file with other users\.
 + **Revoke share** – Revoke the sharing of a file\.
 + **View** – View a file\.

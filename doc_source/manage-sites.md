@@ -60,38 +60,43 @@ The **IP Allow List** currently works for IPv4 addresses only\. IP address denyl
 **Warning**  
 If you enter a CIDR value that blocks you from using your current IP address to access the site, a warning message appears\. If you choose to continue with the current CIDR value, you will be blocked from accessing the site with your current IP address\. This action can only be reversed by contacting AWS Support\.
 
-## Security – public share settings<a name="external_share_settings"></a>
+## Security – Simple ActiveDirectory sites<a name="security-settings-simple-ad"></a>
 
-In the **Admin control panel**, under **Security**, choose **Change**\. Under **Who should be allowed to create publicly shareable links**, choose from the following settings:
+This topic explains the various security settings for Simple ActiveDirectory sites\. If you manage sites that use ActiveDirectory connector, see the next section\. 
 
-Under **Choose your setting for shareable links**, select an option:
-+ **Users cannot send internal view links\.** – Disables link sharing for all users\.
-+ **Users cannot send external view links\.** – Limits link sharing to just site members\. Managed users can create this type of link\.
-+ **Users can send external view links to anyone\.** – Managed users can create site\-wide links, but only power users can create public links\. Public links allow access to anyone on the internet\.
-+ **Users cannot send external view links to a few specific domains\.** – Managed users can create public links\.
+**To use security settings**
 
-## Security – invitation settings<a name="invitation-settings"></a>
+1. Choose the profile icon in the upper\-right corner of the WorkDocs client\.
 
-Choose from the following settings for **Who should be allowed to join your WorkDocs site?**\.
+    ![\[The default profile image in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
 
-**Users can invite people from anywhere by sharing files or folders with them**  
-Users can invite people from anywhere outside the organization by sharing files or folders with them\.
+1. Under **Admin**, choose **Open admin control panel**\.
 
-**Users can invite new people from a few specific domains by sharing files or folders with them**  
-Users can invite new people from the specified domains by sharing files or folders with them\. 
+1. Scroll down to **Security** and choose **Change**\.
 
-## Security – external invitations<a name="ext-invite-settings"></a>
+   The **Policy Settings** dialog box appears\. The following table lists the security settings for Simple ActiveDirectory sites\.    
+[\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/manage-sites.html)
 
-Choose from the following settings for **Who should be allowed to invite external users to your WorkDocs site?**
+1. When finished, choose **Save Changes**\.
 
-**Only administrators can invite new external users**  
-Only administrators can invite external users to use Amazon WorkDocs\.
+## Security – ActiveDirectory connector sites<a name="security-settings-ad-connector"></a>
 
-**All managed users can invite new external users**  
-All users can invite new external users to use Amazon WorkDocs\.
+This topic explains the various security settings for ActiveDirectory connector sites\. If you manage sites that use Simple ActiveDirectory, see the previous section\. 
 
-**Only Power users can invite new external users**  
-Only Power users can invite new external users to use Amazon WorkDocs\.
+**To use security settings**
+
+1. Choose the profile icon in the upper\-right corner of the WorkDocs client\.
+
+    ![\[The default profile image in the Amazon WorkDocs web client.\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/images/wd-profile-default.png) 
+
+1. Under **Admin**, choose **Open admin control panel**\.
+
+1. Scroll down to **Security** and choose **Change**\.
+
+   The **Policy Settings** dialog box appears\. The following table lists and describes the security settings for ActiveDirectory connector sites\.    
+[\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/workdocs/latest/adminguide/manage-sites.html)
+
+1. When finished, choose **Save Changes**\.
 
 ## Recovery bin retention<a name="recovery-bin"></a>
 
